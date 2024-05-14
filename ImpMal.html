@@ -80,10 +80,6 @@
                 <input type="radio" id="void" name="origin" value="Voidborn">
                 <label for="void">Voidborn</label>
             </form><!-- #originForm -->
-            <div class="info-text">
-                <p id="originInfo" class="select-info">Agri Worlds are the breadbaskets of the Imperium, dedicated entirely to agriculture.</p>
-                <p id="originBuff" class="select-buff"></p>
-            </div><!-- .info-text -->
         </div><!-- #originPanel  .tab-panel -->
         <div class="tab-panel" id="factionPanel" style="display:none">
             <div class="panel-text">
@@ -108,10 +104,6 @@
                 <input type="radio" id="trader" name="faction" value="Rogue Trader Dynasty">
                 <label for="trader">Rogue Trader Dynasty</label><br>
             </form><!-- #factionForm -->
-            <div class="info-text">
-                <p id="factionInfo" class="select-info">The Adminastratum are the recordkeepers and lawmakers of the Imperium. Bureacrats.</p>
-                <p id="factionBuff" class="select-buff"></p>
-            </div><!-- .info-text -->
         </div><!-- #factionPanel  .tab-panel -->
         <div class="tab-panel" id="rolePanel" style="display:none">
 
@@ -134,14 +126,12 @@
                 <input type="radio" id="zealot" name="role" value="Zealot">
                 <label for="zealot">Zealot</label><br>   
             </form><!-- #originForm-->
-            <div class="info-text">
-                <p id="originInfo" class="select-info">Interlocutors excel in social situations, and are better at talking than fighting.</p>
-                <p id="oriignBuff" class="select-buff"></p>
-            </div><!-- .info-text -->
         </div><!-- #rolePanel  .tab-panel -->
     </div><!-- #panelWrapper -->
     <br>
     <div class="wrapper">
+        <p id="info" class="select-info"></p>
+        <p id="buff" class="select-buff"></p>
         <button id="submitButton" value="submit">Submit</button>
         <p id="alert"></p>
     </div>

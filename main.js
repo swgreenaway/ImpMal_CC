@@ -46,7 +46,6 @@ function infoText(radioClass, radioID){
                 infoText = "Born on a voidship amongst the emptiness of space. They are as big as a city.";
                 break;
         }
-        document.getElementById("originInfo").textContent = infoText;
     }
     if(radioClass = "faction"){
         switch(radioID){
@@ -75,8 +74,8 @@ function infoText(radioClass, radioID){
                 infoText = "Traders and explorers, this group has many freedoms compared to the rest.";
                 break;
        }
-       document.getElementById("factionInfo").textContent = infoText; 
     }
+    document.getElementById("info").textContent = infoText;
 }
 
 
