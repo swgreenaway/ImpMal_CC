@@ -1,0 +1,68 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabWrapper {
+    width: max-content;
+    margin-left:auto;
+    margin-right:auto;
+    border-style: double;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panelWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab-button:hover {
+    background-color: lightgray;
+}
+
+.tab-button.active {
+    background-color: grey;
+    color:aliceblue;
+}
+
+.tab-panel {
+    border-style: dashed; 
+}
+
+#submitButton {
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+#sheetWrapper {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}

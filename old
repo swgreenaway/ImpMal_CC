@@ -1,0 +1,207 @@
+<!--
+/**************************************
+TITLE: Character creator
+AUTHOR: <Simon Greenaway> (SG)
+CREATE DATE: <4/17/2024>
+PURPOSE: Character creator for imperium maledictum charactor creator
+LAST MODIFIED ON:<4/27/2024>
+LAST MODIFIED BY: <SG>
+<4/17/2024> Simon Greenaway (SG)
+**************************************/
+My theme is a character creator for a table top role playing game-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="characterCreator.css?">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <title>Imperium Maledictum Character Creator</title>
+</head>
+<body>
+    <h1>Imperium Maledictum Character Creator</h1>
+    <div id="accordion"><!--div for accordion-->
+        <h2>1. Name</h2><!--Name-->
+        <div class="creator">
+            <h3>Enter the name of your character.</h3>
+            <form id="nameForm" method="get">
+                <label for="name">Enter Name:</label>
+                <input id="name" type="text" autocomplete="on" required>
+                <br>
+            </form>
+        </div><!--end Name-->
+        <h2>2. Stats</h2><!--Stats-->
+        <div class="creator">
+            <div class="creatorText">            
+                <h3>Manually enter your stats:</h3>
+                <p>30 is reasonable for a new character</p>
+                <p>Leaving these blank will give you a random stat!</p>
+            </div>
+            <form id="statsForm" method="get">
+                <label for="ws">Weapon Skill:</label>
+                <input id="ws" class="attribute" type="text">
+                <br>
+                <label for="bs">Ballistic Skill:</label>
+                <input id="bs" class="attribute" type="text">
+                <br>
+                <label for="str">Strength:</label>
+                <input id="str" class="attribute" type="text">
+                <br>
+                <label for="tgh">Toughness:</label>
+                <input id="tgh" class="attribute" type="text">
+                <br>
+                <label for="ag">Agility:</label>
+                <input id="ag" class="attribute" type="text">
+                <br>
+                <label for="int">Intelligence:</label>
+                <input id="int" class="attribute" type="text">
+                <br>
+                <label for="per">Perception:</label>
+                <input id="per" class="attribute" type="text">
+                <br>
+                <label for="wil">Willpower:</label>
+                <input id="wil" class="attribute" type="text">
+                <br>
+                <label for="fel">Fellowship:</label>
+                <input id="fel" class="attribute" type="text">
+                <br>
+            </form>
+        </div><!--end Stats-->
+        <h2>3. Origin</h2><!--Origin-->
+        <div class="creator">
+            <div class="creatorText">
+                <h3>What sort of planet are you from?</h3>
+                <p>Gives minor bonus to characteristics</p>
+                <p id="originDescription">Click on an option for more info.</p>
+            </div>
+            <div class="originOptions">
+                <p>Select Origin:</p>
+                <form id="originForm" method="get">
+                    <input type="radio" id="agri" name="origin" value="Agri World" checked="checked"/>
+                    <label for="agri">Agri World</label><br>
+                    <input type="radio" id="feral" name="origin" value="Feral World">
+                    <label for="feral">Feral World</label><br>
+                    <input type="radio" id="fuedal" name="origin" value="Fuedal World">
+                    <label for="fuedal">Fuedal World</label><br>
+                    <input type="radio" id="forge" name="origin" value="Forge World">
+                    <label for="forge">Forge World</label><br>
+                    <input type="radio" id="hive" name="origin" value="Hive World">
+                    <label for="hive">Hive World</label><br>
+                    <input type="radio" id="schola" name="origin" value="Schola Progenium">
+                    <label for="schola">Schola Progenium</label><br>
+                    <input type="radio" id="shrine" name="origin" value="Shrine World">
+                    <label for="shrine">Shrine World</label><br>
+                    <input type="radio" id="void" name="origin" value="Voidborn">
+                    <label for="void">Voidborn</label>
+                </form>
+            </div>                                 
+        </div><!--end Origin-->
+        <h2>4. Faction</h2><!--Faction-->
+        <div class="creator">
+            <div class="creatorText">
+                <h3>Which major group were you a part of?</h3>
+                <p>These offer bonuses to skills and characteristics and determines starting items.</p>
+            </div>
+            <form id="factionForm" method="get">
+                <input type="radio" id="administratum" name="faction" value="Adeptus Administratum" checked="checked">
+                <label for="administratum">Adeptus Administratum</label><br>
+                <input type="radio" id="astra" name="faction" value="Adeptus Astra Telepathica">
+                <label for="astra">Adeptus Astra Telepathica</label><br>
+                <input type="radio" id="mechanicus" name="faction" value="Adeptus Mechanicus">
+                <label for="mechanicus">Adeptus Mechanicus</label><br>
+                <input type="radio" id="militarum" name="faction" value="Adeptus Militarum">
+                <label for="militarum">Adeptus Militarum</label><br>
+                <input type="radio" id="fleet" name="faction" value="Imperial Fleet">
+                <label for="fleet">Imperial Fleet</label><br>
+                <input type="radio" id="infractionist" name="faction" value="Infractionist">
+                <label for="infractionist">Infractionist</label><br>
+                <input type="radio" id="inquisition" name="faction" value="The Inquisition">
+                <label for="inquisition">The Inquisition</label><br>
+                <input type="radio" id="trader" name="faction" value="Rogue Trader Dynasty">
+                <label for="trader">Rogue Trader Dynasty</label><br>
+            </form>
+        </div><!--end Faction-->
+        <h2>5. Role</h2><!--Role-->
+        <div class="creator">
+            <div class="creatorText">
+                <h3>What's your character's job?</h3>
+                <p> Like a class, determines abilities and playstyle.</p>
+            </div>
+            <form>
+                <input type="radio" id="interlocutor" name="role" value="Interlocutor" checked="checked">
+                <label for="interlocutor">Interlocutor</label><br>
+                <input type="radio" id="mystic" name="role" value="Mystic">
+                <label for="mystic">Mystic</label><br>
+                <input type="radio" id="penumbra" name="role" value="Penumbra">
+                <label for="penumbra">Penumbra</label><br>
+                <input type="radio" id="savant" name="role" value="Savant">
+                <label for="savant">Savant</label><br>         
+                <input type="radio" id="warrior" name="role" value="Warrior">
+                <label for="warrior">Warrior</label><br>   
+                <input type="radio" id="zealot" name="role" value="Zealot">
+                <label for="zealot">Zealot</label><br>   
+            </form>
+        </div><!--end Role-->
+    </div><!--end accordion div-->
+    <div id="submitPanel">
+        <input type="button" id="submit" value="submit" disabled>
+        <p id="namePrompt" class="invalidInput">You must name your character before submitting.</p>
+    </div>
+    <div id="sheet"><!--Sheet-->
+        <div class="sheetPanelOne">
+            <p id="nameSheet">Name:</p>
+            <p id="originSheet">Origin:</p>
+            <p id="factionSheet">Faction:</p>
+            <p id="roleSheet">Role:</p>
+            <br>
+            <p id="dateSheet">Created:</p>
+            <p id="targetSheet"></p>
+        </div>
+        <div id="statSheet">
+        <p>Characteristics:</p>    
+        <table>
+            <tr>
+                <td>Weapon Skill:</td>
+                <td class="attributeSheet" id="sheetWS">0</td>
+            </tr>
+            <tr>
+                <td>Ballistic Skill:</td>
+                <td class="attributeSheet" id="sheetBS">0</td>
+            </tr>
+            <tr>
+                <td>Strength:</td>
+                <td class="attributeSheet" id="sheetSTR">0</td>
+            </tr>
+            <tr>
+                <td>Toughness:</td>
+                <td class="attributeSheet" id="sheetTGH">0</td>
+            </tr>
+            <tr>
+                <td>Agility:</td>
+                <td class="attributeSheet" id="sheetAG">0</td>
+            </tr>
+            <tr>
+                <td>Intelligence:</td>
+                <td class="attributeSheet" id="sheetINT">0</td>
+            </tr>
+            <tr>
+                <td>Perception:</td>
+                <td class="attributeSheet" id="sheetPER">0</td>
+            </tr>
+            <tr>
+                <td>Willpower:</td>
+                <td class="attributeSheet" id="sheetWIL">0</td>
+            </tr>
+            <tr>
+                <td>Fellowship:</td>
+                <td class="attributeSheet" id="sheetFEL">0</td>
+            </tr>                                                    
+        </table>
+        </div>
+    </div><!--end sheet-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="characterCreator.js?"></script>   
+</body>
+</html>

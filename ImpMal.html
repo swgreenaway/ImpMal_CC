@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Imperium Maledictum Character Creator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Imperium Maledictum Character Creator</h1>
+    <div class="wrapper">
+        <form id="nameForm">
+            <label for="nameInput">Enter a name for your character:</label>
+            <input id="nameInput" type="text">
+        </form><!-- #nameForm -->
+    </div><!-- .wrapper -->
+    <div id="tabWrapper">
+        <button id="statsButton" class="tab-button" value="statsPanel">Attributes</button>
+        <button id="originButton" class="tab-button" value="originPanel">Origin</button>
+        <button id="factionButton" class="tab-button" value="factionPanel">Faction</button>
+        <button id="roleButton" class="tab-button" value="rolePanel">Role</button>
+    </div><!-- #tabWrapper -->
+    <div id="panelWrapper">
+        <div class="tab-panel" id="statsPanel" style="display:none">
+                <div class="panel-text">
+                    <h3>Enter attributes</h3>
+                    <p>Roll them yourself and enter manually, or leave blank for random</p>
+                    <p>Starting stats are 2d10 + 20</p>
+                </div><!-- .panel-text -->
+                <form id="statsForm" method="get">
+                    <label for="ws">Weapon Skill:</label>
+                    <input id="ws" class="attribute" type="text">
+                    <br>
+                    <label for="bs">Ballistic Skill:</label>
+                    <input id="bs" class="attribute" type="text">
+                    <br>
+                    <label for="str">Strength:</label>
+                    <input id="str" class="attribute" type="text">
+                    <br>
+                    <label for="tgh">Toughness:</label>
+                    <input id="tgh" class="attribute" type="text">
+                    <br>
+                    <label for="ag">Agility:</label>
+                    <input id="ag" class="attribute" type="text">
+                    <br>
+                    <label for="int">Intelligence:</label>
+                    <input id="int" class="attribute" type="text">
+                    <br>
+                    <label for="per">Perception:</label>
+                    <input id="per" class="attribute" type="text">
+                    <br>
+                    <label for="wil">Willpower:</label>
+                    <input id="wil" class="attribute" type="text">
+                    <br>
+                    <label for="fel">Fellowship:</label>
+                    <input id="fel" class="attribute" type="text">
+                </form><!-- #statsForm -->       
+        </div><!-- #statsPanel  .tab-panel -->
+        <div class="tab-panel" id="originPanel" style="display:none">
+            <div class="panel-text">
+                <h3>Select origin</h3>
+                <p>What sort of planet are you from?</p>
+                <p>Gives minor bonus to characteristics</p>
+            </div><!-- .panel-text -->
+            <form id="originForm" method="get">
+                <input type="radio" id="agri" name="origin" value="Agri World" checked="checked"/>
+                <label for="agri">Agri World</label><br>
+                <input type="radio" id="feral" name="origin" value="Feral World">
+                <label for="feral">Feral World</label><br>
+                <input type="radio" id="fuedal" name="origin" value="Fuedal World">
+                <label for="fuedal">Fuedal World</label><br>
+                <input type="radio" id="forge" name="origin" value="Forge World">
+                <label for="forge">Forge World</label><br>
+                <input type="radio" id="hive" name="origin" value="Hive World">
+                <label for="hive">Hive World</label><br>
+                <input type="radio" id="schola" name="origin" value="Schola Progenium">
+                <label for="schola">Schola Progenium</label><br>
+                <input type="radio" id="shrine" name="origin" value="Shrine World">
+                <label for="shrine">Shrine World</label><br>
+                <input type="radio" id="void" name="origin" value="Voidborn">
+                <label for="void">Voidborn</label>
+            </form><!-- #originForm -->
+            <div class="info-text">
+                <p id="originInfo" class="select-info">Agri Worlds are the breadbaskets of the Imperium, dedicated entirely to agriculture.</p>
+                <p id="originBuff" class="select-buff"></p>
+            </div><!-- .info-text -->
+        </div><!-- #originPanel  .tab-panel -->
+        <div class="tab-panel" id="factionPanel" style="display:none">
+            <div class="panel-text">
+                <h3>Select Faction</h3>
+                <p>Which major group are you a part of?</p>
+            </div><!-- .panel-text -->
+            <form id="factionForm" method="get">
+                <input type="radio" id="administratum" name="faction" value="Adeptus Administratum" checked="checked">
+                <label for="administratum">Adeptus Administratum</label><br>
+                <input type="radio" id="astra" name="faction" value="Adeptus Astra Telepathica">
+                <label for="astra">Adeptus Astra Telepathica</label><br>
+                <input type="radio" id="mechanicus" name="faction" value="Adeptus Mechanicus">
+                <label for="mechanicus">Adeptus Mechanicus</label><br>
+                <input type="radio" id="militarum" name="faction" value="Adeptus Militarum">
+                <label for="militarum">Adeptus Militarum</label><br>
+                <input type="radio" id="fleet" name="faction" value="Imperial Fleet">
+                <label for="fleet">Imperial Fleet</label><br>
+                <input type="radio" id="infractionist" name="faction" value="Infractionist">
+                <label for="infractionist">Infractionist</label><br>
+                <input type="radio" id="inquisition" name="faction" value="The Inquisition">
+                <label for="inquisition">The Inquisition</label><br>
+                <input type="radio" id="trader" name="faction" value="Rogue Trader Dynasty">
+                <label for="trader">Rogue Trader Dynasty</label><br>
+            </form><!-- #factionForm -->
+            <div class="info-text">
+                <p id="factionInfo" class="select-info">The Adminastratum are the recordkeepers and lawmakers of the Imperium. Bureacrats.</p>
+                <p id="factionBuff" class="select-buff"></p>
+            </div><!-- .info-text -->
+        </div><!-- #factionPanel  .tab-panel -->
+        <div class="tab-panel" id="rolePanel" style="display:none">
+
+            <div class="panel-text">
+                <h3>Select your role</h3>
+                <p>What sort of job does your character do?</p>
+            </div><!-- .panel-text -->
+
+            <form id="originForm">
+                <input type="radio" id="interlocutor" name="role" value="Interlocutor" checked="checked">
+                <label for="interlocutor">Interlocutor</label><br>
+                <input type="radio" id="mystic" name="role" value="Mystic">
+                <label for="mystic">Mystic</label><br>
+                <input type="radio" id="penumbra" name="role" value="Penumbra">
+                <label for="penumbra">Penumbra</label><br>
+                <input type="radio" id="savant" name="role" value="Savant">
+                <label for="savant">Savant</label><br>         
+                <input type="radio" id="warrior" name="role" value="Warrior">
+                <label for="warrior">Warrior</label><br>   
+                <input type="radio" id="zealot" name="role" value="Zealot">
+                <label for="zealot">Zealot</label><br>   
+            </form><!-- #originForm-->
+            <div class="info-text">
+                <p id="originInfo" class="select-info">Interlocutors excel in social situations, and are better at talking than fighting.</p>
+                <p id="oriignBuff" class="select-buff"></p>
+            </div><!-- .info-text -->
+        </div><!-- #rolePanel  .tab-panel -->
+    </div><!-- #panelWrapper -->
+    <br>
+    <div class="wrapper">
+        <button id="submitButton" value="submit">Submit</button>
+        <p id="alert"></p>
+    </div>
+    <div id="sheetWrapper">
+        <div class="sheet-panel">
+            <p id="sheetName">Name:</p>
+            <p id="sheetOrigin">Origin:</p>
+            <p id="sheetFaction">Faction:</p>
+            <p id="sheetRole">Role:</p>
+        </div><!-- .sheet-panel -->
+        <div id=statSheet class="sheet-panel">
+            <p>Characteristics:</p>    
+            <table>
+            <tr>
+                <td>Weapon Skill:</td>
+                <td class="sheetAttribute" id="sheetWS">0</td>
+            </tr>
+            <tr>
+                <td>Ballistic Skill:</td>
+                <td class="sheetAttribute" id="sheetBS">0</td>
+            </tr>
+            <tr>
+                <td>Strength:</td>
+                <td class="sheetAttribute" id="sheetSTR">0</td>
+            </tr>
+            <tr>
+                <td>Toughness:</td>
+                <td class="sheetAttribute" id="sheetTGH">0</td>
+            </tr>
+            <tr>
+                <td>Agility:</td>
+                <td class="sheetAttribute" id="sheetAG">0</td>
+            </tr>
+            <tr>
+                <td>Intelligence:</td>
+                <td class="sheetAttribute" id="sheetINT">0</td>
+            </tr>
+            <tr>
+                <td>Perception:</td>
+                <td class="sheetAttribute" id="sheetPER">0</td>
+            </tr>
+            <tr>
+                <td>Willpower:</td>
+                <td class="sheetAttribute" id="sheetWIL">0</td>
+            </tr>
+            <tr>
+                <td>Fellowship:</td>
+                <td class="sheetAttribute" id="sheetFEL">0</td>
+            </tr>                                                    
+            </table>
+        </div><!-- #statSheet .sheet-panel -->
+    </div><!-- #sheetWrapper -->
+
+    <script src="Character.js?"></script>
+    <script src="main.js?"></script>
+    <script src="eventListeners.js?"></script>
+</body>    
+</html>
