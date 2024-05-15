@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Imperium Maledictum Character Creator</h1>
-    <div class="wrapper">
+    <div id="nameWrapper">
         <form id="nameForm">
             <label for="nameInput">Enter a name for your character:</label>
             <input id="nameInput" type="text">
@@ -63,7 +63,9 @@
                 <p>Gives minor bonus to characteristics</p>
             </div><!-- .panel-text -->
             <form id="originForm" method="get">
-                <input type="radio" id="agri" name="origin" value="Agri World" checked="checked"/>
+                <input type="radio" id="random" name="origin" value="" checked="checked">
+                <label for="random">Randomize</label><br>
+                <input type="radio" id="agri" name="origin" value="Agri World">
                 <label for="agri">Agri World</label><br>
                 <input type="radio" id="feral" name="origin" value="Feral World">
                 <label for="feral">Feral World</label><br>
@@ -87,7 +89,9 @@
                 <p>Which major group are you a part of?</p>
             </div><!-- .panel-text -->
             <form id="factionForm" method="get">
-                <input type="radio" id="administratum" name="faction" value="Adeptus Administratum" checked="checked">
+                <input type="radio" id="random" name="faction" value="" checked="checked">
+                <label for="random">Randomize</label><br>
+                <input type="radio" id="administratum" name="faction" value="Adeptus Administratum">
                 <label for="administratum">Adeptus Administratum</label><br>
                 <input type="radio" id="astra" name="faction" value="Adeptus Astra Telepathica">
                 <label for="astra">Adeptus Astra Telepathica</label><br>
@@ -106,14 +110,14 @@
             </form><!-- #factionForm -->
         </div><!-- #factionPanel  .tab-panel -->
         <div class="tab-panel" id="rolePanel" style="display:none">
-
             <div class="panel-text">
                 <h3>Select your role</h3>
                 <p>What sort of job does your character do?</p>
             </div><!-- .panel-text -->
-
             <form id="originForm">
-                <input type="radio" id="interlocutor" name="role" value="Interlocutor" checked="checked">
+                <input type="radio" id="random" name="role" value="" checked="checked">
+                <label for="random">Randomize</label><br>
+                <input type="radio" id="interlocutor" name="role" value="Interlocutor">
                 <label for="interlocutor">Interlocutor</label><br>
                 <input type="radio" id="mystic" name="role" value="Mystic">
                 <label for="mystic">Mystic</label><br>
@@ -129,12 +133,17 @@
         </div><!-- #rolePanel  .tab-panel -->
     </div><!-- #panelWrapper -->
     <br>
-    <div class="wrapper">
-        <p id="info" class="select-info"></p>
-        <p id="buff" class="select-buff"></p>
+    <div id="submitWrapper">
+        <div id="bonuses">
+            <p id="info" class="select-info"></p>
+            <p id="buffSkill"></p>
+            <p id="buffEquipment"></p>
+            <p id="buffTalent" class="select-buff"></p>
+            <p id="buffSpecial"></p>
+        </div><!-- #bonuses -->
         <button id="submitButton" value="submit">Submit</button>
         <p id="alert"></p>
-    </div>
+    </div><!-- .wrapper -->
     <div id="sheetWrapper">
         <div class="sheet-panel">
             <p id="sheetName">Name:</p>

@@ -1,3 +1,6 @@
+/* main.js for Imperium Maledictum Character Creator
+* contains functions that do all the "work" that aren't in 
+
 /*tabPanel()
 * PURPOSE: displays corresponding panel when clicking on tab-button
 * RETURNS: void
@@ -13,37 +16,53 @@ function tabPanel(e){
     document.getElementById(e.target.value).style.display = "";
 }
 
+
 /*infoText()
-* PURPOSE: display info based on radio selection
-* RETURNS: String? contents maybe?
+* PURPOSE: display information and any bonuses based on radio selection
 */
 function infoText(radioClass, radioID){
     let infoText = "";
     if(radioClass = "origin"){
         switch(radioID){
             case "agri":
-                infoText = "These are the breadbaskets of the Imperium, dedicated entirely to agriculture.";
+                infoText = "These are the breadbaskets of the Imperium, dedicated entirely to agriculture.<br>" +
+                "+5 to Strength and +5 to Toughness, Agility, OR Willpower.<br>" +
+                "You gain a shoddy entrenching tool.";              
                 break;
             case "feral":
-                infoText = "These are wild and dangerous with nomadic tribes. There is very little technology.";
+                infoText = "These are wild and dangerous with nomadic tribes. There is very little technology.<br>" +
+                "+5 to Toughness and +5 to Weapon Skill, Strength, OR Perception.<br>" +
+                "You gain a shoddy set of survival gear.";
                 break;
             case "fuedal":
-                infoText = "These tend to be in the late iron age, ruled over by noble houses.";
+                infoText = "These tend to be in the late iron age, ruled over by noble houses.<br>" +
+                "+5 to Weapon Skill and +5 to Strength, Fellowship, OR Willpower.<br>" +
+                "You gain a shoddy writing kit.";
                 break;
             case "forge":
-                infoText = "Factories cover this world, producing all sorts of goods for the Imperium.";
+                infoText = "Factories cover this world, producing all sorts of goods for the Imperium.<br>" +
+                "+5 to Intelligence and +5 to Balistic Skill, Agility, OR Toughness.<br>" +
+                "You gain a vial of sacred Unguents.";
                 break;
             case "hive":
-                infoText = "These have cities with populations in the billions. The majority of people live on such worlds.";
+                infoText = "These have cities with populations in the billions. The majority of people live on such worlds.<br>" +
+                "+5 to Agility and +5 to Ballistic Skill, Perception, OR Fellowship<br>" +
+                "You gain a set of ugly Filtration plugs.";
                 break;
             case "schola":
-                infoText = "These worlds are dedicated to knowledge, and are home to massive libraries and databanks.";
+                infoText = "These worlds are dedicated to knowledge, and are home to massive libraries and databanks.<br>" +
+                "+5 to Fellowship and +5 to Toughness, Weapon Skill, OR Ballistic Skill.<br>" +
+                "You gain a chrono.";
                 break;
             case "shrine":
-                infoText = "Entire planets made into shrines for The God Emperor.";
+                infoText = "Entire planets made into shrines for The God Emperor.<br>" +
+                "+5 to Willpower and +5 to Intelligence, Perception, OR Fellowship<br>" +
+                "You gain a holy icon.";
                 break;
             case "void":
-                infoText = "Born on a voidship amongst the emptiness of space. They are as big as a city.";
+                infoText = "Born on a voidship amongst the emptiness of space. They are as big as a city.<br>" +
+                "+5 to Perception and +5 to Intelligence, Agility, OR Willpower.<br>" +
+                "You gain a set of shoddy mag boots.";
                 break;
         }
     }
@@ -75,7 +94,33 @@ function infoText(radioClass, radioID){
                 break;
        }
     }
-    document.getElementById("info").textContent = infoText;
+    if(radioClass = "role"){
+        switch(radioID){
+            case "interlocutor":
+                infoText = "Interlocutor's prefer talking things out over fighting. Whether that's with persuaion or indimidation varies with each individual.<br>" +
+                "Choose 4 talents from: Air of Authority, Briber, Dealmaker, Distracting, Gallows, Humor, Gothic Gibberish, Lickspittle, and Overseer.<br>" +
+                "3 advances to spend on Awareness, Discipline, Intuition, Lingusitics, and Rapport.<br>" +
+                "2 advances to spend on any specialisation for Intuition, Presence, and Rapport.<br>" +
+                "You gain a knife, a laspistol OR revolver, a vox bead, and either a Laud Hailer, pict recorder, or vox-caster.";
+                break;
+            case "mystic":
+                infoText = "Mystics are touched by the warp, they are able to tap into vast amounts of power. Viewed as a blessing by some, but a heretical curse by many.";
+                break;
+            case "penumbra":
+                infoText = "Penumbra's excel at espionage, sneaking around, and infiltration. Consist of spies, assasins, and thieves.";
+                break;
+            case "savant":
+                infoText = "Savant's are scholars and experts. Fountains of knowledge, often specializing in certain fields. Care mroe for brains than brawn.";
+                break;
+            case "warrior":
+                infoText = "Warrior's thrive in the heat of combat. Whether it's with an auto-gun or a power sword, they are adept fighters weathered by combat.";
+                break;
+            case "zealot":
+                infoText = "Zealot's are fully devoted to their cause. This determiniation ca push them beyond what might seem possible, miracles of their faith.";
+                break;
+        }
+    }
+    document.getElementById("info").innerHTML = infoText;
 }
 
 
@@ -108,6 +153,7 @@ function validateCharacterInput(){
     }//end for assigning attributes
     return true;
 }
+
 
 /*updateSheet()
 * PURPOSE: updates sheet contents using Character's getters
