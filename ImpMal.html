@@ -11,6 +11,14 @@
 </head>
 <body>
     <h1>Imperium Maledictum Character Creator</h1>
+    <div id="foundryActorWrapper">
+        <h2>Load Actor From Foundry</h2>
+        <p class="foundry-description">Provide an actor ID to request data from your FoundryVTT instance.</p>
+        <label for="actorIdInput">Actor ID</label>
+        <input id="actorIdInput" type="text" placeholder="e.g. AbCdEf123456">
+        <button id="fetchActorButton" type="button">Fetch Actor</button>
+        <pre id="actorResult" aria-live="polite"></pre>
+    </div>
     <div id="nameWrapper">
         <form id="nameForm">
             <label for="nameInput">Enter a name for your character:</label>
@@ -197,8 +205,9 @@
         </div><!-- #statSheet .sheet-panel -->
     </div><!-- #sheetWrapper -->
 
+    <script src="foundryApiClient.js?"></script>
     <script src="Character.js?"></script>
     <script src="main.js?"></script>
     <script src="eventListeners.js?"></script>
-</body>    
+</body>
 </html>
