@@ -8,7 +8,10 @@ const PORT = process.env.PORT || 3000;
 const FOUNDRY_API_BASE_URL = process.env.FOUNDRY_API_BASE_URL || 'https://foundryvtt-rest-api-relay.fly.dev/';
 const FOUNDRY_API_KEY = process.env.FOUNDRY_API_KEY;
 const FOUNDRY_CLIENT_ID = process.env.FOUNDRY_CLIENT_ID;
-const BASE_DIR = __dirname;
+const ROOT_DIR = path.resolve(__dirname, '..');
+const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
+const DATA_DIR = path.join(ROOT_DIR, 'data');
+const CHARACTER_DATA_DIR = path.join(DATA_DIR, 'characters');
 
 function sendJson(res, statusCode, payload) {
   const body = JSON.stringify(payload);
@@ -623,17 +626,27 @@ function getContentType(filePath) {
 
 function resolveStaticPath(pathname) {
   if (pathname === '/' || pathname === '') {
-    return path.join(BASE_DIR, 'ImpMal.html');
+    return path.join(PUBLIC_DIR, 'character-creator.html');
   }
 
   const stripped = pathname.replace(/^\/+/, '');
-  const resolved = path.resolve(BASE_DIR, stripped);
 
-  if (!resolved.startsWith(BASE_DIR)) {
-    return null;
+  if (stripped.startsWith('data/characters/')) {
+    const relativeDataPath = stripped.replace(/^data\//, '');
+    const dataPath = path.resolve(DATA_DIR, relativeDataPath);
+
+    if (dataPath.startsWith(CHARACTER_DATA_DIR)) {
+      return dataPath;
+    }
   }
 
-  return resolved;
+  const publicPath = path.resolve(PUBLIC_DIR, stripped);
+
+  if (publicPath.startsWith(PUBLIC_DIR)) {
+    return publicPath;
+  }
+
+  return null;
 }
 
 function serveStaticFile(res, pathname) {
@@ -680,11 +693,11 @@ const server = http.createServer((req, res) => {
   // Development endpoint: serve local character data
   if (req.method === 'GET' && requestUrl.pathname.startsWith('/api/dev/characters/')) {
     const characterName = requestUrl.pathname.split('/').pop();
-    const filePath = path.join(__dirname, 'player_data', `${characterName}.json`);
+    const filePath = path.join(CHARACTER_DATA_DIR, `${characterName}.json`);
 
     fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
-        sendJson(res, 404, { error: `Character '${characterName}' not found in player_data` });
+        sendJson(res, 404, { error: `Character '${characterName}' not found in data/characters` });
         return;
       }
 
@@ -693,9 +706,9 @@ const server = http.createServer((req, res) => {
         const parsed = parseActorData(characterData);
 
         // In development mode, use local image if available
-        const localImagePath = path.join(__dirname, 'player_data', `${characterName}.webp`);
+        const localImagePath = path.join(CHARACTER_DATA_DIR, `${characterName}.webp`);
         if (fs.existsSync(localImagePath)) {
-          parsed.image = `/player_data/${characterName}.webp`;
+          parsed.image = `/data/characters/${characterName}.webp`;
         }
 
         sendJson(res, 200, parsed);
