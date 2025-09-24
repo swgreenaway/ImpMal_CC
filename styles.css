@@ -112,6 +112,78 @@ h1 {
     text-align: center;
 }
 
+#foundryActorWrapper {
+    width: min(720px, 100%);
+    margin: 0 auto 28px;
+    padding: 22px 26px;
+    display: grid;
+    gap: 12px;
+    background: rgba(6, 25, 16, 0.82);
+    border: 1px solid var(--cogitator-green-dim);
+    border-radius: 8px;
+    box-shadow: var(--panel-glow);
+}
+
+#foundryActorWrapper h2 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--cogitator-green-bright);
+}
+
+.foundry-description {
+    margin: 0;
+    color: var(--cogitator-green-muted);
+}
+
+#foundryActorWrapper label {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--cogitator-green);
+}
+
+#fetchActorButton {
+    justify-self: start;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 1px solid var(--cogitator-green-dim);
+    background: linear-gradient(180deg, rgba(34, 126, 79, 0.95) 0%, rgba(18, 74, 44, 0.95) 100%);
+    color: var(--cogitator-green-bright);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 16px rgba(124, 255, 182, 0.45);
+    transition: transform 120ms ease, filter 160ms ease, box-shadow 160ms ease;
+}
+
+#fetchActorButton:hover,
+#fetchActorButton:focus-visible {
+    filter: brightness(1.1);
+    transform: translateY(-1px);
+    box-shadow: 0 0 20px rgba(155, 247, 184, 0.6);
+}
+
+#actorResult {
+    min-height: 140px;
+    padding: 14px 16px;
+    background: rgba(9, 40, 24, 0.7);
+    border: 1px solid rgba(155, 247, 184, 0.25);
+    border-radius: 6px;
+    font-size: 1rem;
+    line-height: 1.3;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: auto;
+}
+
+#actorResult.success {
+    color: var(--cogitator-green-bright);
+}
+
+#actorResult.error {
+    color: var(--cogitator-error);
+}
+
 #nameForm {
     display: grid;
     gap: 12px;

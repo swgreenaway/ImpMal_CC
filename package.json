@@ -1,0 +1,14 @@
+{
+  "name": "impmal_cc",
+  "version": "1.0.0",
+  "description": "Character Creator for Cubicle 7's Imperium Maledictum ttrpg",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
