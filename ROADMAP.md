@@ -216,7 +216,7 @@ npm start  # Development server on localhost:3000
 
 4. **Standalone Executable**
    ```bash
-   pkg server.js --out-path dist/
+   pkg server/server.js --out-path dist/
    ```
 
 This roadmap prioritizes rapid development with minimal complexity while maintaining the ability to scale and add features incrementally.

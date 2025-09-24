@@ -1,7 +1,7 @@
 // Character Viewer JavaScript
 // Development mode: use local character data
 const DEV_MODE = true;
-const CHARACTER_NAME = 'Karpath'; // Use Karpath from player_data
+const CHARACTER_NAME = 'Karpath'; // Use Karpath from data/characters
 const ACTOR_ID = 'foITsszSuDbwhkhE'; // Fallback for production API
 
 // Cache configuration
