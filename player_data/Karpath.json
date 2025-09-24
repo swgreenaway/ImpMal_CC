@@ -1,0 +1,3365 @@
+{
+  "folder": "7gw7oDXuSyF8qZlp",
+  "name": "Karpath",
+  "type": "character",
+  "_id": "3qRBelEE8QUVREap",
+  "img": "tokenizer/pc-images/dom.AvatarGFjLx2vyz6G4wt7q.webp?1728772102408",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 38,
+        "advances": 1,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 38,
+        "advances": 1,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 26,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 24,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 32,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 28,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 41,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 48,
+        "advances": 2,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 29,
+        "advances": 1,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 1,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 1,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 0,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 2,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 0,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 1,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 0,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 0,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "influence": {
+      "factions": {},
+      "usePatron": false
+    },
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "solars": 1500,
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": null
+        },
+        "fly": {
+          "value": "none",
+          "modifier": null
+        }
+      },
+      "wounds": {
+        "max": null,
+        "value": 6
+      },
+      "criticals": {
+        "max": null,
+        "value": 0
+      },
+      "hitLocations": {
+        "head": {
+          "range": [
+            1,
+            1
+          ],
+          "label": "IMPMAL.Head",
+          "abbrev": "IMPMAL.HeadAbbrev"
+        },
+        "leftArm": {
+          "range": [
+            2,
+            2
+          ],
+          "label": "IMPMAL.LeftArm",
+          "abbrev": "IMPMAL.LeftArmAbbrev"
+        },
+        "rightArm": {
+          "range": [
+            3,
+            3
+          ],
+          "label": "IMPMAL.RightArm",
+          "abbrev": "IMPMAL.RightArmAbbrev"
+        },
+        "leftLeg": {
+          "range": [
+            4,
+            4
+          ],
+          "label": "IMPMAL.LeftLeg",
+          "abbrev": "IMPMAL.LeftLegAbbrev"
+        },
+        "rightLeg": {
+          "range": [
+            5,
+            5
+          ],
+          "label": "IMPMAL.RightLeg",
+          "abbrev": "IMPMAL.RightLegAbbrev"
+        },
+        "body": {
+          "range": [
+            6,
+            10
+          ],
+          "label": "IMPMAL.Body",
+          "abbrev": "IMPMAL.BodyAbbrev"
+        }
+      },
+      "superiority": null,
+      "action": ""
+    },
+    "xp": {
+      "total": 1650,
+      "other": {
+        "list": [
+          {
+            "description": "Sanctioned Psyker",
+            "xp": -350
+          }
+        ]
+      }
+    },
+    "details": {
+      "age": 26,
+      "feature": "Pox marks or another Lingering sign",
+      "eyes": "Haunted",
+      "hair": "grey long",
+      "height": "1.98",
+      "weight": "",
+      "divination": "",
+      "species": "Human"
+    },
+    "origin": {
+      "id": "i7qRAalBsnddJYeW",
+      "name": ""
+    },
+    "faction": {
+      "id": "BLOQk9yJsb03nyDH",
+      "name": ""
+    },
+    "role": {
+      "id": "YoGYdL2LE9DyZAn7",
+      "name": ""
+    },
+    "patron": {
+      "id": "zX7J80IKN58Rqsn4"
+    },
+    "goal": {
+      "short": "get 8 wrap with bad thing happeding",
+      "long": "no"
+    },
+    "connections": {
+      "list": []
+    },
+    "corruption": {
+      "value": 2,
+      "max": 0
+    },
+    "fate": {
+      "max": 2,
+      "value": 0
+    },
+    "handed": "right",
+    "hands": {
+      "left": {
+        "id": "7cpo9bLpKmg3QSeD"
+      },
+      "right": {
+        "id": "7cpo9bLpKmg3QSeD",
+        "uuid": "Compendium.impmal-core.items.Item.jNxvsLBybPPenmmn"
+      }
+    },
+    "warp": {
+      "charge": 6,
+      "state": 0
+    },
+    "augmetics": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Karpath",
+    "displayName": 0,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "tokenizer/pc-images/dom.TokenGFjLx2vyz6G4wt7q.webp?1728772102408",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "splatter": {
+        "bloodColor": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "autorotate": {
+        "enabled": null,
+        "offset": null
+      }
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "Mq65Eybj3VyKk2iJ",
+      "name": "Mystic",
+      "type": "role",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.uJURMn2glWHhjqJk.JournalEntryPage.XAXnQluFkxD2gsmG]{Mystic}</p><p>Talents: You gain the @UUID[Compendium.impmal-core.items.Item.3GLGsYiH5LiKgYjE]{Psyker} Talent if you do not already have it. If you already have the <em>Psyker</em> Talent, you learn one @UUID[JournalEntry.3mzwixuzgerGUpu1.JournalEntryPage.xoUemA7abdmB6DJ1#minor-psychic-powers]{Minor Psychic Power}, and one Psychic Power from a Discipline you know. Choose 2 Talents from @UUID[Compendium.impmal-core.items.Item.TXMKTpI3FosIpc3O]{Condemn the Witch}, @UUID[Compendium.impmal-core.items.Item.F7YxlHA1gBnfCQfG]{Fated}, @UUID[Compendium.impmal-core.items.Item.Lbm6mRMiqSGHq9GD]{Forbidden Knowledge}, @UUID[Compendium.impmal-core.items.Item.A8gHIdJY3Va9OrhM]{Mental Fortress}, and @UUID[Compendium.impmal-core.items.Item.6fGIyNI86dmgxwGG]{Sanctioned Psyker}.</p><p>Skill Advances: You have 3 Advances to spend on Awareness, Discipline, Intuition, Lore, Navigation, and Psychic Mastery.</p><p>Specialisations: You have 2 Advances to spend on Discipline (Fear), Linguistics (Forbidden), and Lore (Forbidden). You may spend Advances on Awareness (Psyniscience) and any Psychic Mastery Specialisation. If you have the @UUID[Compendium.impmal-core.items.Item.Lbm6mRMiqSGHq9GD]{Forbidden Knowledge} Talent, you may spend Advances on any (Forbidden) Specialisation you have access to.</p><p>Equipment: You gain a @UUID[Compendium.impmal-core.items.Item.qQ8Y8nmiaTaKgzvs]{Knife} or a @UUID[Compendium.impmal-core.items.Item.bYYdQ2TEdSgOTIf0]{Staff}, a @UUID[Compendium.impmal-core.items.Item.jNxvsLBybPPenmmn]{Laspistol} or a @UUID[Compendium.impmal-core.items.Item.vCeI41URKYV6iuAD]{Stub Revolver}, a set of @UUID[Compendium.impmal-core.items.Item.O5AtUszQGDbi8qmS]{Survival Gear}, a @UUID[Compendium.impmal-core.items.Item.Yp1Fmiml09wxHj4h]{Vox Bead}, and either a @UUID[Compendium.impmal-core.items.Item.zGBSIFsZKtOoVV5T]{Psy Focus} or an @UUID[Compendium.impmal-core.items.Item.dO7XoDXD9QYTy6zZ]{Auspex}.</p>",
+          "gm": ""
+        },
+        "skills": {
+          "value": 3,
+          "list": [
+            "awareness",
+            "discipline",
+            "intuition",
+            "lore",
+            "navigation",
+            "psychic"
+          ]
+        },
+        "specialisations": {
+          "value": 2,
+          "list": [
+            {
+              "uuid": "Compendium.impmal-core.items.Item.9mjpbJ5GEldcLVoP"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.0WV8IJuVkxLdOuem"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.z3pFUwFlp4BJf1oJ"
+            }
+          ],
+          "keys": []
+        },
+        "equipment": {
+          "structure": {
+            "type": "or",
+            "id": "root",
+            "options": []
+          },
+          "options": []
+        },
+        "talents": {
+          "number": 2,
+          "list": [
+            {
+              "uuid": "Compendium.impmal-core.items.Item.TXMKTpI3FosIpc3O"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.F7YxlHA1gBnfCQfG"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.Lbm6mRMiqSGHq9GD"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.A8gHIdJY3Va9OrhM"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.6fGIyNI86dmgxwGG"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.tXNLuikTOveBv5vs"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.tXNLuikTOveBv5vs",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770304852,
+        "modifiedTime": 1728770304852,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "YoGYdL2LE9DyZAn7"
+    },
+    {
+      "folder": "lWjke9bJb59710xJ",
+      "name": "Shrine World",
+      "type": "origin",
+      "img": "modules/impmal-core/assets/icons/origins/shrine-world.webp",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Example Macharian Shrine Worlds</strong></p><p><em>Macharia, St. Isidore's Rest</em></p><p>You hail from a shrine world, a holy planet devoted to worship of the Imperial Creed. Shrine worlds are often crowded by cathedrums and temples merging into one another, fortified basilica towering miles high, and colossal shrines to the God-Emperor and a myriad of Imperial Saints. A shrine world is typically assigned its holy status due to a specific event believed to have occurred there, such as the birth or demise of a saint, a turning point in a crusade or War of Faith, or an alleged miracle. The Ecclesiarchy govern the shrine worlds of the Imperium, imposing the most rigid strictures of the Imperial Creed. As such, their denizens are often deeply devout, as well as experienced in dealing with diverse folk making holy pilgrimages to their home.</p><ul><li><p>You gain +5 Willpower and +5 to either Intelligence, Perception, or Fellowship.</p></li><li><p>You gain a @UUID[Compendium.impmal-core.items.Item.oaY0wS7LewD6DXK6]{Holy Icon}.</p></li></ul>",
+          "gm": ""
+        },
+        "equipment": {
+          "list": [
+            {
+              "uuid": "Compendium.impmal-core.items.Item.oaY0wS7LewD6DXK6"
+            }
+          ]
+        },
+        "characteristics": {
+          "base": "wil",
+          "choices": [
+            "int",
+            "per",
+            "fel"
+          ]
+        },
+        "factionTable": {
+          "id": "7MVzDzO1f96P1eWh",
+          "name": "Shrine World Faction",
+          "uuid": "Compendium.impmal-core.tables.RollTable.7MVzDzO1f96P1eWh"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.i7qRAalBsnddJYeW",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770322409,
+        "modifiedTime": 1728770322409,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "i7qRAalBsnddJYeW"
+    },
+    {
+      "folder": "dVG9Ismc7wWJ5Dno",
+      "name": "Adeptus Astra Telepathica",
+      "type": "faction",
+      "img": "modules/impmal-core/assets/icons/factions/adeteptus-astra-telepathica.webp",
+      "system": {
+        "patron": {
+          "duty": {
+            "list": [
+              {
+                "uuid": "Compendium.impmal-core.items.Item.jNE0u5chxVeC5fmA"
+              },
+              {
+                "uuid": "Compendium.impmal-core.items.Item.j25qdkOVsA4PAW9N"
+              }
+            ]
+          },
+          "influence": {
+            "factions": {
+              "adeptus-administratum": {
+                "name": "Adeptus Astra Telepathica",
+                "value": 2,
+                "notes": ""
+              }
+            }
+          },
+          "notes": "<p>Your Patron is a member of the @UUID[JournalEntry.uJURMn2glWHhjqJk.JournalEntryPage.Lbabs7YP2HuQqC8T]{Adeptus Astra Telepathica}, the Faction responsible for the capture and containment of psykers in the Imperium. Some are trained and deployed to serve as sanctioned <strong class=\"blue\">psykers</strong>, while others serve as vital sustenance for the Emperor's Astronomican. Your Patron is likely a psyker, using their anomalous abilities to assist another Faction in communication or combat, or perhaps someone who hunts and captures <strong class=\"blue\">rogue psykers</strong>.</p><ul><li><p><strong>Influence</strong>: Your Patron has +2 Influence with the Adeptus Astra Telepathica.</p></li><li><p><strong>Duty</strong>: Your Patron is either a @UUID[Compendium.impmal-core.items.Item.jNE0u5chxVeC5fmA]{Astropath} or a @UUID[Compendium.impmal-core.items.Item.j25qdkOVsA4PAW9N]{Sister of Silence}</p></li></ul><blockquote class=\"sidebar\"><p><strong class=\"blue\">Psykers</strong> are individuals that can access the alternate dimension of psychic energy known as the warp and use it to affect reality in unnatural ways.</p><p><strong class=\"blue\">Rogue psykers</strong> are psykers that do not submit themselves to the Adeptus Astra Telepathica. They are particularly susceptible to corruption by the Ruinous Powers and possession by daemonic entities.</p></blockquote>"
+        },
+        "character": {
+          "solars": 500,
+          "influence": {
+            "factions": {
+              "adeptus-astra-telepathica": {
+                "name": "Adeptus Astra Telepathica",
+                "value": 1
+              }
+            }
+          },
+          "characteristics": {
+            "base": "wil",
+            "choices": [
+              "wil",
+              "int",
+              "tgh",
+              "per"
+            ]
+          },
+          "advances": {
+            "value": 5,
+            "skills": [
+              "awareness",
+              "discipline",
+              "intuition",
+              "linguistics",
+              "navigation",
+              "psychic"
+            ]
+          },
+          "talents": {
+            "structure": {
+              "type": "or",
+              "id": "root",
+              "options": [
+                {
+                  "id": "OJioP5rxZqaSIp6z",
+                  "type": "and",
+                  "options": [
+                    {
+                      "id": "o2ELwJLBHraz8w0L",
+                      "type": "option"
+                    },
+                    {
+                      "id": "BNc1Ge4PatKbD8H1",
+                      "type": "option"
+                    }
+                  ]
+                },
+                {
+                  "id": "PowRrtjg8bQOSRpV",
+                  "type": "option"
+                },
+                {
+                  "id": "0BeESarRUPJJqeox",
+                  "type": "and",
+                  "options": [
+                    {
+                      "id": "lflsyj9ilNElv3ov",
+                      "type": "option"
+                    },
+                    {
+                      "id": "FUJMoqwSpKtvvtSC",
+                      "type": "option"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options": [
+              {
+                "type": "item",
+                "id": "o2ELwJLBHraz8w0L",
+                "name": "Psyker",
+                "documentId": "3GLGsYiH5LiKgYjE",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "BNc1Ge4PatKbD8H1",
+                "name": "Sanctioned Psyker",
+                "documentId": "6fGIyNI86dmgxwGG",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "PowRrtjg8bQOSRpV",
+                "name": "Blank",
+                "documentId": "PpidBBZ7dG6yziXg",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "FUJMoqwSpKtvvtSC",
+                "name": "Condemn The Witch",
+                "documentId": "TXMKTpI3FosIpc3O",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "name": "Mental Fortress",
+                "id": "lflsyj9ilNElv3ov",
+                "idType": "id",
+                "documentId": "A8gHIdJY3Va9OrhM",
+                "diff": {},
+                "filters": []
+              }
+            ]
+          },
+          "equipment": {
+            "structure": {
+              "type": "or",
+              "id": "root",
+              "options": [
+                {
+                  "id": "8yWqRXfZWxTsY3d3",
+                  "type": "option"
+                },
+                {
+                  "id": "ZZJntXZBBD9XzjeS",
+                  "type": "option"
+                },
+                {
+                  "id": "wpm4QeuSIDgtOICg",
+                  "type": "option"
+                },
+                {
+                  "id": "h325Kaa1iNQMkwhm",
+                  "type": "option"
+                }
+              ]
+            },
+            "options": [
+              {
+                "type": "item",
+                "id": "8yWqRXfZWxTsY3d3",
+                "name": "Knife",
+                "documentId": "qQ8Y8nmiaTaKgzvs",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "ZZJntXZBBD9XzjeS",
+                "name": "Mono-edge",
+                "documentId": "rD6BtFSjpfupZss1",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "wpm4QeuSIDgtOICg",
+                "name": "Robes/Light Leathers",
+                "documentId": "D9X5jPYYafLyPqKh",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "h325Kaa1iNQMkwhm",
+                "name": "Instrument of Divination",
+                "documentId": "RJQOgOg4q8krADXi",
+                "diff": {
+                  "name": "Instrument of Divination"
+                },
+                "idType": "id",
+                "filters": []
+              }
+            ]
+          },
+          "duty": {
+            "list": [
+              {
+                "uuid": "Compendium.impmal-core.items.Item.Z5crSk9tJz55GGO9"
+              },
+              {
+                "uuid": "Compendium.impmal-core.items.Item.n4UiIURI8tdKhxh5"
+              },
+              {
+                "uuid": "Compendium.impmal-core.items.Item.c9Ti88te1H3crLb7"
+              }
+            ]
+          },
+          "notes": "<p>@UUID[JournalEntry.uJURMn2glWHhjqJk.JournalEntryPage.Lbabs7YP2HuQqC8T]{Adeptus Astra Telepathica}</p><ul><li><p>You gain +5 Willpower and +5 to either Intelligence, Perception, or Toughness</p></li><li><p>You have 5 Advances to spend on Awareness, Discipline, Intuition, Linguistics, Navigation, or Psychic Mastery</p></li><li><p>You gain +1 Influence with the Adeptus Astra Telepathica. At the GM's discretion, you may instead have +1 Influence with a Faction of your choice to reflect your duty in the Imperium.</p></li><li><p>You gain one of the following: the @UUID[Compendium.impmal-core.items.Item.3GLGsYiH5LiKgYjE]{Psyker} and @UUID[Compendium.impmal-core.items.Item.6fGIyNI86dmgxwGG]{Sanctioned Psyker} Talents; the @UUID[Compendium.impmal-core.items.Item.PpidBBZ7dG6yziXg]{Blank} Talent; or the @UUID[Compendium.impmal-core.items.Item.TXMKTpI3FosIpc3O]{Condemn the Witch} and @UUID[Compendium.impmal-core.items.Item.A8gHIdJY3Va9OrhM]{Mental Fortress} Talents.</p></li><li><p>You gain a @UUID[Compendium.impmal-core.items.Item.qQ8Y8nmiaTaKgzvs]{Knife} with the @UUID[Compendium.impmal-core.items.Item.rD6BtFSjpfupZss1]{Mono-edge} Weapon Modification, a set of @UUID[Compendium.impmal-core.items.Item.D9X5jPYYafLyPqKh]{Robes}, an @UUID[Compendium.impmal-core.items.Item.RJQOgOg4q8krADXi]{instrument of divination}, and 500 solars.</p></li></ul>"
+        }
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "PCQgaY5E7QaWxBlV": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.BLOQk9yJsb03nyDH",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770360610,
+        "modifiedTime": 1728770360610,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "BLOQk9yJsb03nyDH"
+    },
+    {
+      "name": "Sear",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Handscald, Emblaze </p><p>You channel psychic energy into an object until it glows with searing heat. Choose an object with an Encumbrance no greater than the SL of your Manifest Test within Medium Range. Until the start of your next turn, the object becomes burning hot and glows dimly. A creature touching the object when you manifest this power suffers Damage equal to your Willpower Bonus, and suffers the Damage again at the end of its turn if it's still touching the object. If the object is a piece of Armour a creature is wearing, its Armour Value does not reduce the Damage. When the power ends, the heated object cools at a normal rate. At the GM's discretion, materials that can withstand the heat may become somewhat malleable while heated, while less robust materials may simply melt.</p><p>Specialisation in Pyromancy applies to this power's Manifest Test.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "minor",
+        "minorSpecialisation": "pyromancy",
+        "rating": 3,
+        "difficulty": "difficult",
+        "range": "medium",
+        "target": "1 Object",
+        "duration": "sustained",
+        "overt": false,
+        "opposed": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "xpOverride": 0
+      },
+      "type": "power",
+      "folder": "g8vIkzHIde9dK0tb",
+      "_id": "5r4I5RwIJtfOrVZ6",
+      "img": "modules/impmal-core/assets/icons/powers/minor-power.webp",
+      "effects": [
+        {
+          "name": "Sear",
+          "_id": "raEQpE4Qx7hU0oN0",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/powers/minor-power.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "target",
+              "documentType": "Item",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "filter": "return args.system.encumbrance?.value <= this.effect.sourceTest?.result.SL",
+              "prompt": true,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Sear - Immediate",
+                "trigger": "immediate",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.PMRnPXavqgFqILbv]",
+                "async": false
+              },
+              {
+                "label": "Sear - Per Turn",
+                "trigger": "endTurn",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.PMRnPXavqgFqILbv]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770444301,
+        "modifiedTime": 1728773918089,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Psychic Shriek",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Vox Daemonicus, The Cursed Bellow</p><p>Drawing a deep soul-breath, you unleash a scream that is silent in realspace but ripples through the underlying Warp with searing power, rending souls from bodies in an arc in front of you. Choose a Zone within Medium Range. Creatures (excluding you) in the target Zone and your Zone must make a <strong>Difficult (−10) Discipline (Psychic)</strong> Test Opposing your Manifest Test. If you win, the target suffers Damage equal to your Willpower Bonus plus the difference in SL, which ignores Armour. Daemons and Psykers suffer double Damage, but creatures without a Warp presence (such as Necrons and Nulls) are immune to this power.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "telepathy",
+        "minorSpecialisation": "",
+        "rating": 3,
+        "difficulty": "difficult",
+        "range": "medium",
+        "target": "2 Zones",
+        "duration": "instant",
+        "overt": true,
+        "opposed": {
+          "difficulty": "difficult",
+          "characteristic": "",
+          "skill": {
+            "key": "discipline",
+            "specialisation": "Psychic"
+          }
+        },
+        "xpOverride": 0
+      },
+      "type": "power",
+      "folder": "HdNUrvEd23mEgsTl",
+      "_id": "61LtbSXGELhbGC6c",
+      "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+      "effects": [
+        {
+          "name": "Psychic Shriek",
+          "_id": "cBQK3ovBbz6uIP1x",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "zone",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "filter": "return this.actor.uuid == this.effect.sourceTest.actor.uuid;",
+              "prompt": false,
+              "zone": {
+                "type": "tokens",
+                "keep": false,
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Psychic Shriek",
+                "trigger": "immediate",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": true
+                },
+                "script": "[Script.wViGwSuq6ZxiHYLY]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770444301,
+        "modifiedTime": 1728773918089,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Psyker",
+      "system": {
+        "notes": {
+          "player": "<p>The immaterium lies just behind reality, outside the perception of most creatures in the galaxy, but you are not most creatures. As a psyker, you are aware of the warp, though you may not understand it. You can access and unleash its tumultuous power into realspace.</p><p>Channelling such power is fraught with perils, however, and death is far from the most frightening possibility one might face. When you acquire this Talent, you gain the ability to @UUID[JournalEntry.3mzwixuzgerGUpu1.JournalEntryPage.T3pf1AmXi3Qnm6ev]{manifest Psychic Powers}. You can also purchase Advances in the @UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#psychic-mastery-(wil)]{Psychic Mastery} Skill and the @UUID[Compendium.impmal-core.items.Item.lBzdm76EnuuoGfMq]{Awareness (Psyniscience)} Specialisation.</p><p>When you gain this Talent, you learn one @UUID[JournalEntry.3mzwixuzgerGUpu1.JournalEntryPage.xoUemA7abdmB6DJ1#minor-psychic-powers]{Minor Psychic Power}. Additionally, select a @UUID[JournalEntry.3mzwixuzgerGUpu1.JournalEntryPage.V5zDWussZivkFavj]{Psychic Discipline} and immediately gain one power of your choice from that discipline. You can spend 60 XP to purchase additional Minor Psychic Powers or 100 XP to purchase Psychic Powers from your chosen Discipline.</p><p>You can purchase this Talent a number of times up to your Willpower Bonus. Each additional time you purchase this Talent, you access a new Psychic Discipline and one power of that Discipline.</p>",
+          "gm": ""
+        },
+        "requirement": {
+          "value": "Cannot have the Blank Talent. This applies even during Character Creation",
+          "script": "return !this.actor.itemTypes[\"talent\"].find(i => i.name == \"Blank\")"
+        },
+        "test": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "taken": 1,
+        "xpCost": 0,
+        "effectOptions": {
+          "list": []
+        },
+        "effectTakenRequirement": {},
+        "effectRepeatable": {},
+        "effectChoices": {}
+      },
+      "type": "talent",
+      "folder": "0BFlDbZ88BuqNlV2",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "effects": [
+        {
+          "name": "Psyker",
+          "_id": "OYHlhnKG95jvUgFN",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/generic.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Gain Powers",
+                "trigger": "immediate",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.7LmbaEKe1QpImusG]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "haJbQSUTeFQi1kxb": 2,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770444416,
+        "modifiedTime": 1728770444416,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "RFFD6RRv3igtz6AR"
+    },
+    {
+      "name": "Sanctioned Psyker",
+      "system": {
+        "notes": {
+          "player": "<p>From the multitude of Psykers identified within the Imperium each day, you were marked as having the potential to be more than a sacrifice to fuel the Golden Throne. You have been tested, tormented, and subjected to rites and rituals that you shudder to recall. </p><p>The experience was mentally and physically scarring, but it left you more resistant to the dangers of the warp and in control of your power. </p><p>Your Warp Threshold is equal to double your Willpower Bonus. You also have a symbol to prove your sanctioned status.</p>",
+          "gm": ""
+        },
+        "requirement": {
+          "value": "The Psyker Talent. Can only be taken during character creation.",
+          "script": "return this.actor.itemTypes[\"talent\"].find(i => i.name == \"Psyker\")"
+        },
+        "test": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "taken": 1,
+        "xpCost": 0,
+        "effectOptions": {
+          "list": []
+        },
+        "effectTakenRequirement": {},
+        "effectRepeatable": {},
+        "effectChoices": {}
+      },
+      "type": "talent",
+      "folder": "0BFlDbZ88BuqNlV2",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "effects": [
+        {
+          "name": "Sanctioned Psyker",
+          "_id": "JBnAUcVrYl4M5RH5",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/generic.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Warp Threshold",
+                "trigger": "prePrepareDerivedData",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.wEo5SFN5Gj4tKH2w]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770444416,
+        "modifiedTime": 1728770444416,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "hxVgMRyUZ1VzM3BT"
+    },
+    {
+      "folder": "qanHaDPvuEhF6FOo",
+      "name": "Mono-edge",
+      "type": "modification",
+      "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+      "system": {
+        "notes": {
+          "player": "<p>Popular among assassins and other fighters who need to pierce armour with ease, Mono-edges are molecule-thin superfine blades that never dull.</p><p>A Mono-edge can be applied to any Mundane bladed melee weapon, granting it the Penetrating (2) Trait, or increasing its Penetrating rating by 2 if it already has the Trait. At the GM's discretion, they may allow other Mundane weapons to use this modification. In this case, the modification takes the form of a powerful pneumatic spike or kill-plate.</p>",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 250,
+        "availability": "rare",
+        "quantity": 1,
+        "category": "combat",
+        "usedWith": "Mundane melee weapons",
+        "addedTraits": {
+          "list": [
+            {
+              "key": "penetrating",
+              "value": "2"
+            }
+          ]
+        },
+        "removedTraits": {
+          "list": []
+        },
+        "disabled": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770444416,
+        "modifiedTime": 1728770444416,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "TmgNO1WpWb2d4l7R"
+    },
+    {
+      "name": "Robes",
+      "type": "protection",
+      "folder": "ZuAeviXZUQVXVQQr",
+      "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "cost": 10,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": true
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "subtle"
+            }
+          ]
+        },
+        "category": "mundane",
+        "armour": 1,
+        "locations": {
+          "list": [
+            "rightArm",
+            "leftArm",
+            "body",
+            "rightLeg",
+            "leftLeg"
+          ]
+        },
+        "damage": {},
+        "rended": {}
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770444416,
+        "modifiedTime": 1728771557265,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "eT2ItYT24tqtsGBx"
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Instrument of Divination",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "equipped": {
+          "value": true
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 200,
+        "availability": "rare",
+        "quantity": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "enabled": false
+        },
+        "traits": {
+          "list": []
+        }
+      },
+      "img": "modules/impmal-core/assets/icons/equipment/instruments-of-divination.webp",
+      "effects": [],
+      "sort": 2200000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770444416,
+        "modifiedTime": 1728771556107,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "G7l6bcuVtE98O3Qk"
+    },
+    {
+      "name": "Psychic Fortitude",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Mindwall, Righteous Resistance </p><p>Drawing from the bottomless well of the Warp, you reach out with your mind to bolster your allies' force of will with your own. Choose a number of allies (excluding you) up to the SL of your Manifest Test within Short Range. Until the start of your next turn, the targets may use your Willpower score in place of their own when making Willpower Tests, and they have Advantage on Willpower Tests.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "telepathy",
+        "minorSpecialisation": "",
+        "rating": 3,
+        "difficulty": "hard",
+        "range": "short",
+        "target": "SL Allies",
+        "duration": "sustained",
+        "overt": false,
+        "opposed": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "HdNUrvEd23mEgsTl",
+      "_id": "LdGZY6wVVLmqUs0z",
+      "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+      "effects": [
+        {
+          "name": "Psychic Fortitude",
+          "_id": "2XOBkWePRx4dlYzs",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "target",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Advantage on Willpower Tests",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.6WFGP2YlK24muC6O]",
+                  "activateScript": "[Script.TRx4I20jcVS4KbyJ]",
+                  "targeter": false,
+                  "submissionScript": "",
+                  "deleteEffect": false
+                },
+                "script": "[Script.l5WEnwfnHwmftia4]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.LdGZY6wVVLmqUs0z",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770858747,
+        "modifiedTime": 1728773918089,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Mental Interrogation",
+      "system": {
+        "notes": {
+          "player": "<p></p><p><strong>Cognomens</strong>: Violate Mind, Arcane Inquisition</p><p>You dive into your target's mind, sifting through their memories and subconscious, uncovering their private thoughts and deepest secrets. Choose a creature within Short Range. The target must make a <strong>Challenging (+0) Discipline (Psychic)</strong> Test Opposing your Manifest Test. The target makes the Test with Disadvantage if it is unconscious, but it makes the Test with Advantage if it is hostile to you. If you win, you gain access to the target's mind until the beginning of your next turn. If you win the Opposed Test but the target succeeds, it becomes aware of your intrusion. The difference in SL determines how deeply you penetrate according to the @UUID[Compendium.impmal-core.items.Item.sZluux2xrMuK4w1H]{Mental Interrogation} Table.</p><p>The power ends if the target is ever beyond Short Range from you. While you have access to the target's mind, you can use a Free Action once on your turn to learn a number of pieces of information about it equal to your Intelligence Bonus, and memories play out in realtime, so you may need long-term access to the target to explore its mind thoroughly.</p><table class=\"impmal\"><thead><tr class=\"title\"><td colspan=\"2\"><p>Mental Interrogation Table</p></td></tr><tr class=\"subheader\"><td><p>SL</p></td><td><p>Results (cumulative)</p></td></tr></thead><tbody><tr><td><p>+1</p></td><td><p>You can learn basic information about the target, such as name, age, mood, and general physical/mental health, as well as surface thoughts in the target’s mind, such as opinions about you, overarching motivations, immediate concerns, and conscious lies.</p></td></tr><tr><td><p>+2</p></td><td><p>You can learn about an object, location, or creature significant to the target and the nature of its importance.</p></td></tr><tr><td><p>+3</p></td><td><p>You can access the target’s memories of the last day from their perspective.</p></td></tr><tr><td><p>+4</p></td><td><p>You can access the target’s memories of the last year from their perspective.</p></td></tr><tr><td><p>+5</p></td><td><p>You can reveal the target's innermost thoughts, feelings, motivations, fears, relationships, secrets, and agendas.</p></td></tr><tr><td><p>+6 or more</p></td><td><p>The target is an open book to you. You have full access to the target’s mind and the information within.</p></td></tr></tbody></table>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "telepathy",
+        "minorSpecialisation": "",
+        "rating": 2,
+        "difficulty": "challenging",
+        "range": "short",
+        "target": "1 Creature",
+        "duration": "sustained",
+        "overt": false,
+        "opposed": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "discipline",
+            "specialisation": "Psychic"
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "HdNUrvEd23mEgsTl",
+      "_id": "sZluux2xrMuK4w1H",
+      "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.sZluux2xrMuK4w1H",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770884122,
+        "modifiedTime": 1728773918089,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Compel",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Irresistible Command, The Emperor's Voice</p><p>You issue a simple psychic command to your victim, compelling them to obey against their will. Choose a creature within Short Range. The target must make a <strong>Routine (+20) Discipline (Psychic)</strong> Test Opposing your Manifest Test. If you win, you immediately declare one Action or Movement the target will take on its next turn, and the target must carry it out before it does anything else. Whether you win or lose the Opposed Test, the target is aware that you compelled them.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "telepathy",
+        "minorSpecialisation": "",
+        "rating": 2,
+        "difficulty": "routine",
+        "range": "short",
+        "target": "1 Creature",
+        "duration": "instant",
+        "overt": false,
+        "opposed": {
+          "difficulty": "routine",
+          "characteristic": "",
+          "skill": {
+            "key": "discipline",
+            "specialisation": "Psychic"
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "HdNUrvEd23mEgsTl",
+      "_id": "XnKX6A6hVzeXsGld",
+      "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+      "effects": [],
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.XnKX6A6hVzeXsGld",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770893321,
+        "modifiedTime": 1728773918089,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Condemn The Witch",
+      "system": {
+        "notes": {
+          "player": "<p>Simply denying a psyker access to the warp isn’t enough for you. You twist their power, redirecting it to sear their mind, punishing them for their sorcerous transgressions and unforgivable blasphemies.</p><p>When you successfully use @UUID[JournalEntry.3mzwixuzgerGUpu1.JournalEntryPage.T3pf1AmXi3Qnm6ev#deny-the-witch!]{Deny the Witch} to prevent a psyker from manifesting a psychic power, that psyker suffers Wounds equal to the Warp Rating of the power they attempted to manifest.</p>",
+          "gm": ""
+        },
+        "requirement": {
+          "value": "Willpower 40, Psyker Talent",
+          "script": "return this.actor.system.characteristics.wil.total >= 40 && this.actor.itemTypes[\"talent\"].find(i => i.name == \"Psyker\")"
+        },
+        "test": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "taken": 1,
+        "xpCost": 100,
+        "effectOptions": {
+          "list": []
+        },
+        "effectTakenRequirement": {},
+        "effectRepeatable": {},
+        "effectChoices": {}
+      },
+      "type": "talent",
+      "folder": "0BFlDbZ88BuqNlV2",
+      "_id": "TXMKTpI3FosIpc3O",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.TXMKTpI3FosIpc3O",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770985112,
+        "modifiedTime": 1728770985112,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Mental Fortress",
+      "system": {
+        "notes": {
+          "player": "<p>An open mind is like a fortress with its gates unbarred and unguarded, but the gates of your mind are sealed shut. Your mind cannot be read by psychic powers, and you reduce any Damage you would suffer from psychic powers by an amount equal to your Willpower Bonus.</p>",
+          "gm": ""
+        },
+        "requirement": {
+          "value": "2 Advances in Discipline (Psychic)",
+          "script": "return this.actor.itemTypes[\"specialisation\"].find(i => i.name == \"Psychic\" && i.system.skill == \"discipline\")?.system?.advances >= 2"
+        },
+        "test": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "taken": 1,
+        "xpCost": 100,
+        "effectOptions": {
+          "list": []
+        },
+        "effectTakenRequirement": {},
+        "effectRepeatable": {},
+        "effectChoices": {}
+      },
+      "type": "talent",
+      "folder": "0BFlDbZ88BuqNlV2",
+      "_id": "A8gHIdJY3Va9OrhM",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "effects": [
+        {
+          "name": "Mental Fortress",
+          "_id": "DyT6y0x7ePbSPXOm",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/generic.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Reduce Damage",
+                "trigger": "preTakeDamage",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.kTkhFYLuY8IyZNGH]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.A8gHIdJY3Va9OrhM",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771028916,
+        "modifiedTime": 1728771028916,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Biomancy",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#psychic-mastery-(wil)]{Psychic Mastery}</p><p>@UUID[JournalEntry.3mzwixuzgerGUpu1.JournalEntryPage.V5zDWussZivkFavj#biomancy]{Biomancy}</p>",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "psychic"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771341908,
+        "modifiedTime": 1728771341908,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "sb1ccn552rzp98Hu"
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Telepathy",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#psychic-mastery-(wil)]{Psychic Mastery}</p>",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "psychic"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771349461,
+        "modifiedTime": 1728771349461,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "67YX011rlAzJczXF"
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Psy Focus",
+      "system": {
+        "notes": {
+          "player": "<p>These small, simple trinkets might be mistaken for detritus littering a habway, oddly glowing crystals, or elaborately carved icons, but in the hands of a psyker they allow for greater mental clarity when accessing the powers of the Warp. Some might be made personally during training on Terra, others passed down from one rogue psyker to another as a part of joining a cult. All possess a special value their owner might treasure above all else.</p><p>When using a Psy Focus, you gain +1 SL to Psychic Mastery Tests. You can not benefit from more than one Psy Focus at a time.</p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": true
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 100,
+        "availability": "exotic",
+        "quantity": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "enabled": false
+        },
+        "traits": {
+          "list": []
+        }
+      },
+      "_id": "zGBSIFsZKtOoVV5T",
+      "img": "modules/impmal-core/assets/icons/equipment/psy-focus.webp",
+      "effects": [
+        {
+          "name": "Psy Focus",
+          "_id": "hOdN7lUZvJjlqVwT",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/equipment/psy-focus.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": true,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Psychic Mastery Tests",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.ndJFK6FvHGOx8mxK]",
+                  "activateScript": "[Script.l5OpGmZWxfgl2CFR]",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.6yX3fQEJHfGmXLwW]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 3500000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.zGBSIFsZKtOoVV5T",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771499263,
+        "modifiedTime": 1728771554812,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Laspistol",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 400,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": false
+        },
+        "damage": {
+          "base": "5",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "reliable"
+            }
+          ]
+        },
+        "ammoCost": 100,
+        "attackType": "ranged",
+        "category": "las",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 4,
+          "current": 1
+        },
+        "ammo": {
+          "id": "5mGtwBIjhYeLDzGJ"
+        },
+        "mods": {
+          "list": []
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "jNxvsLBybPPenmmn",
+      "img": "modules/impmal-core/assets/icons/weapons/laspistol.webp",
+      "effects": [],
+      "sort": 3900000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.jNxvsLBybPPenmmn",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771514709,
+        "modifiedTime": 1729134770398,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    },
+    {
+      "name": "Soulsight",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Lifesense, The All Seeing Eye</p><p>Souls burn like flames in the darkness of the Warp, and you can attune your senses to detect them. Until the start of your next turn, you can sense the presence of living creatures within Medium Range according to the Soulsight Table. You can exclude specific creatures, such as you and your allies, from what this power detects. Additionally, you have Advantage to @UUID[Compendium.impmal-core.items.Item.lBzdm76EnuuoGfMq]{Psyniscience} Tests to detect or identify daemons or psykers while this power is active.</p><p>Specialisation in Divination applies to this power's Manifest Test.</p><table class=\"impmal\"><thead><tr class=\"title\"><td colspan=\"2\"><p>Soulsight Table</p></td></tr><tr class=\"subheader\"><td><p>SL</p></td><td><p>You know... (cumulative)</p></td></tr></thead><tbody><tr><td><p>+1</p></td><td><p>How many sentient creatures are within range.</p></td></tr><tr><td><p>+2</p></td><td><p>The species of each sentient creature within range.</p></td></tr><tr><td><p>+3</p></td><td><p>How many sentient creatures are in each Zone within range.</p></td></tr><tr><td><p>+4</p></td><td><p>The exact location of each sentient creature within range.</p></td></tr></tbody></table>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "minor",
+        "minorSpecialisation": "divination",
+        "rating": 2,
+        "difficulty": "challenging",
+        "range": "medium",
+        "target": "Self",
+        "duration": "sustained",
+        "overt": false,
+        "opposed": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "g8vIkzHIde9dK0tb",
+      "_id": "plATcbLJsFW1evOT",
+      "img": "modules/impmal-core/assets/icons/powers/minor-power.webp",
+      "effects": [
+        {
+          "name": "Soulsight",
+          "_id": "ZOceVxI129GoiB3g",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/powers/minor-power.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "target",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Advantage to detect or identify daemons or psykers",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.H6f0NfYdXNc0Evyb]",
+                  "activateScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.AXOnZ7UZlPmawf88]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.plATcbLJsFW1evOT",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728773408987,
+        "modifiedTime": 1728773918089,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Nightshroud",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Invocation of Shadows, Unbidden Umbra</p><p>Drawing on the Warp's limitless darkness, you cast an illusion of ethereal shadows around you so your enemies see only inky darkness when they look your way. Until the start of your next turn, your Zone becomes <em>Heavily Obscured</em>. You and your allies can see through the Zone normally while within the Zone. A creature that notices the darkness and tries to see through it can use its Action on its turn to try to defeat the illusion. If it wins a <strong>Challenging (+0) Discipline (Psychic)</strong> Test Opposing your Manifest Test, the creature can see through the Zone normally and ignores the effects of this power for the next hour.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "telepathy",
+        "minorSpecialisation": "",
+        "rating": 2,
+        "difficulty": "challenging",
+        "range": "self",
+        "target": "Your Zone",
+        "duration": "sustained",
+        "overt": true,
+        "opposed": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "discipline",
+            "specialisation": "Psychic"
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "HdNUrvEd23mEgsTl",
+      "_id": "wOgJ27XFEL0Sx24n",
+      "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+      "effects": [],
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.wOgJ27XFEL0Sx24n",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728773620716,
+        "modifiedTime": 1728773918089,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Erasure",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Nostrum Mentis, The Blessing of Ignorance</p><p>With surgical precision or brute force, you reach into your target's mind to excise a specific memory, leaving no trace of it. Choose a creature within Short Range. The target resists your attempts with a <strong>Routine (+20) Discipline (Psychic)</strong> Test Opposing your Manifest Test — if it fails you may permanently remove one memory from its mind. The length of the memory you erase can be up to 10 x your Willpower Bonus in minutes. This leaves a gap in the target's memory they cannot account for, though they don't realise it's missing until something highlights its absence.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "telepathy",
+        "minorSpecialisation": "",
+        "rating": 2,
+        "difficulty": "routine",
+        "range": "short",
+        "target": "1 Creature",
+        "duration": "instant",
+        "overt": false,
+        "opposed": {
+          "difficulty": "routine",
+          "characteristic": "",
+          "skill": {
+            "key": "discipline",
+            "specialisation": "Psychic"
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "HdNUrvEd23mEgsTl",
+      "_id": "dXuovICcPa2cssAn",
+      "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+      "effects": [],
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.dXuovICcPa2cssAn",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728773692648,
+        "modifiedTime": 1728773918089,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Lasgun Ammo",
+      "type": "ammo",
+      "_id": "5mGtwBIjhYeLDzGJ",
+      "img": "modules/impmal-core/assets/icons/ammo/ammo.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "custom": false,
+        "priceMultiplier": 1,
+        "usedWith": "",
+        "damage": null,
+        "addedTraits": {
+          "list": []
+        },
+        "removedTraits": {
+          "list": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "OiC3nmfMqKDD4B7W": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1729134756490,
+        "modifiedTime": 1729134763305,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    },
+    {
+      "name": "Dominate",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Soulshackle, The Chains of Duty Undeserved</p><p>Your psychic influence overrides a creature's autonomy, subjugating it to your will. Choose a creature within Medium Range. The target must win a <strong>Hard (−20) Discipline (Psychic)</strong> Test Opposing your Manifest Test or fall under your control until the start of your next turn. While the target is under your control, you dictate its behaviour, including what it does during its turn.</p><p>Whenever the target takes Damage and at the end of its turn, it repeats the Opposed Test, ending the power immediately if it wins. Once a Creature wins the Opposed Test, it is immune to this power for the next hour. The target is aware of your attempt to control them whether you win or lose the first Opposed Test.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "discipline": "telepathy",
+        "minorSpecialisation": "",
+        "rating": 3,
+        "difficulty": "hard",
+        "range": "medium",
+        "target": "1 Creature",
+        "duration": "sustained",
+        "overt": false,
+        "opposed": {
+          "difficulty": "hard",
+          "characteristic": "",
+          "skill": {
+            "key": "discipline",
+            "specialisation": "Psychic"
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "HdNUrvEd23mEgsTl",
+      "_id": "aCUQ9JcpnQQJptoy",
+      "img": "modules/impmal-core/assets/icons/powers/telepathy-power.webp",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.FlK5TFyjJNmgnExw",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.1",
+        "createdTime": 1730583006608,
+        "modifiedTime": 1730583006608,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Bio-Lightning",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Ball Lightning, Harmful Fulminations</p><p>You alter your physiology to generate vast amounts of electrical current, discharging it in a devastating electrical arc. Choose a creature within Medium Range. The target and creatures within Immediate Range of the target suffer Damage equal to 4 + your Willpower Bonus + SL from your Manifest Test. A creature Damaged by this must also win a <strong>Hard (−20) Fortitude (Endurance)</strong> Test Opposing your Manifest Test or be Stunned until the beginning of your next turn.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "4",
+          "characteristic": "wil",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "discipline": "biomancy",
+        "minorSpecialisation": "",
+        "rating": 3,
+        "difficulty": "hard",
+        "range": "medium",
+        "target": "1 Creature",
+        "duration": "instant",
+        "overt": true,
+        "opposed": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "eRi1mjEVUsPTZnVT",
+      "_id": "I2thQ3mSRu1ySHVB",
+      "img": "modules/impmal-core/assets/icons/powers/biomancy-power.webp",
+      "effects": [
+        {
+          "statuses": [
+            "stunned"
+          ],
+          "flags": {
+            "impmal": {
+              "type": "minor",
+              "manualEffectKeys": false
+            }
+          },
+          "origin": null,
+          "name": "Stunned",
+          "_id": "fvGGy9nWsJwdfS5j",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "transfer": true,
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "2.0.4",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/impmal/assets/icons/conditions/stunned-minor.svg",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "damage",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "custom",
+                "difficulty": "hard",
+                "characteristic": "",
+                "skill": {
+                  "key": "fortitude",
+                  "specialisation": "Endurance"
+                },
+                "opposed": true,
+                "prevention": true,
+                "reversed": false
+              },
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.eYVRPE01hIztBgtI",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.4",
+        "createdTime": 1731194037215,
+        "modifiedTime": 1731194037215,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    },
+    {
+      "name": "Force Staff",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "cost": 7000,
+        "availability": "exotic",
+        "quantity": 1,
+        "equipped": {
+          "value": false
+        },
+        "damage": {
+          "base": "1",
+          "characteristic": "str",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "defensive"
+            },
+            {
+              "key": "twohanded"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "force",
+        "spec": "twoHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 0,
+          "current": null
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "7cpo9bLpKmg3QSeD",
+      "img": "modules/impmal-core/assets/icons/weapons/force-staff.webp",
+      "effects": [],
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "OiC3nmfMqKDD4B7W": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.5sJzyykCUnpSIcrQ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.4",
+        "createdTime": 1731194727417,
+        "modifiedTime": 1731194727417,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Animals",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#rapport-(fel)]{Rapport}</p><p>Aptitude for gaining the friendship and affection of simple beasts, along with the knowledge of how to care for them. Useful for interacting with guardian canids to, for example, issue one a command, or get a hostile one to stop barking. </p>",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "rapport"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "pNZSRduvdV8BNfWT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.5",
+        "createdTime": 1733067500662,
+        "modifiedTime": 1733067500662,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      },
+      "_id": "e1Sfj0vnr3dOdU9S"
+    },
+    {
+      "name": "Smite",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Cognomens</strong>: Blast, Empyric Screech, Eldritch Undoing </p><p>You unleash a corruscating blast of raw psychic power against a foe, rending flesh and spirit. Choose a Creature within Medium Range. The target suffers Damage equal to 2 + your Willpower Bonus + the SL from your Manifest Test, which ignores Armour.</p><p>Specialisation in Telepathy applies to this power's Manifest Test.</p>",
+          "gm": ""
+        },
+        "damage": {
+          "base": "2",
+          "characteristic": "wil",
+          "SL": true,
+          "ignoreAP": true
+        },
+        "discipline": "minor",
+        "minorSpecialisation": "telepathy",
+        "rating": 2,
+        "difficulty": "difficult",
+        "range": "medium",
+        "target": "1 Creature",
+        "duration": "instant",
+        "overt": true,
+        "opposed": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "xpOverride": null
+      },
+      "type": "power",
+      "folder": "g8vIkzHIde9dK0tb",
+      "_id": "RNULjTc01P7YzmEx",
+      "img": "modules/impmal-core/assets/icons/powers/minor-power.webp",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "OiC3nmfMqKDD4B7W": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.iHemd2KVEYx2olv7",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.5",
+        "createdTime": 1733075042047,
+        "modifiedTime": 1733075042047,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "name": "Purge Animation",
+      "img": "icons/svg/aura.svg",
+      "_id": "v56hmNlAEk2u1eqS",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "let origin = this.actor.token;\nif(!origin){\n    origin = this.actor.getActiveTokens();\n}\nif(args.context.purge){\n    console.log\n    new Sequence()\n        .effect()\n            .file(\"jb2a.energy_attack.01.blue\")\n            .atLocation(origin[0])\n\t        .scale(.5)\n        .effect()\n            .file(\"jb2a.impact_themed.ice_shard.01.blue\")\n            .atLocation(origin[0])\n        .sound()\n            .file(\"assets/AUDIO/purge.mp3\")\n            .volume(.9)\n        .play()\n}",
+            "label": "Purge Animation",
+            "trigger": "rollSkillTest",
+            "options": {
+              "targeter": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {
+            "barrier": false,
+            "difficult": false,
+            "warpTouched": false
+          },
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.4",
+        "createdTime": 1731017894894,
+        "modifiedTime": 1731099243157,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    },
+    {
+      "img": "icons/svg/aura.svg",
+      "name": "Heavy Cover",
+      "statuses": [
+        "heavyCover"
+      ],
+      "system": {
+        "transferData": {
+          "enableConditionScript": "return this.actor.system.combat.action == \"cover\"",
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "scriptData": [
+          {
+            "label": "Heavy Cover",
+            "script": "if (args.opposed && args.opposed.attackerTest.item?.system.isRanged)\n                            {\n                                args.modifiers.push({value : -6, label : this.effect.name, armour : true})\n                            }",
+            "trigger": "preTakeDamage",
+            "options": {
+              "targeter": false,
+              "deleteEffect": false
+            },
+            "async": false
+          },
+          {
+            "label": "Start Turn",
+            "script": "delete this.effect.conditionScript; this.effect.update({\"system.transferData.enableConditionScript\" : \"\"})",
+            "trigger": "startTurn",
+            "options": {
+              "targeter": false,
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "sourceData": {
+          "zone": "Scene.6F7DW4eVoAb4N5g2.Region.gMnbv8cmZSh7vyVb",
+          "test": {}
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "zone": {
+          "type": "zone",
+          "traits": {
+            "barrier": false,
+            "difficult": false,
+            "warpTouched": false
+          },
+          "skipImmediateOnPlacement": false
+        },
+        "computed": false
+      },
+      "origin": "Scene.6F7DW4eVoAb4N5g2.Region.gMnbv8cmZSh7vyVb",
+      "_id": "4WsUu127YGrYQOiU",
+      "type": "base",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.7",
+        "createdTime": 1734910848929,
+        "modifiedTime": 1734910848929,
+        "lastModifiedBy": "pNZSRduvdV8BNfWT"
+      }
+    }
+  ],
+  "flags": {
+    "impmal": {
+      "opposed": null
+    },
+    "exportSource": {
+      "world": "rokarth-voll",
+      "system": "impmal",
+      "coreVersion": "12.331",
+      "systemVersion": "2.0.7"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "impmal",
+    "systemVersion": "2.0.7",
+    "createdTime": 1728768909021,
+    "modifiedTime": 1734911827333,
+    "lastModifiedBy": "pNZSRduvdV8BNfWT"
+  }
+}

@@ -1,0 +1,3202 @@
+{
+  "folder": "7gw7oDXuSyF8qZlp",
+  "name": "Jaq",
+  "type": "character",
+  "_id": "dT1WtF2jzCYbXgQ9",
+  "img": "tokenizer/pc-images/miltarum.Avatar1wng5G5KQ4tEPU2A.webp?1728774666073",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 24,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 48,
+        "advances": 2,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 24,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 24,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 1,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 1,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 1,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 0,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 1,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 3,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 0,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 2,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "influence": {
+      "factions": {
+        "astra-militarum": {
+          "name": "Astra Militarum",
+          "modifier": 0,
+          "total": 1,
+          "sources": [],
+          "items": [
+            {
+              "value": 1,
+              "reason": "Astra Militarum"
+            }
+          ],
+          "effects": [],
+          "notes": ""
+        },
+        "vigilites": {
+          "name": "Vigilites",
+          "sources": [],
+          "modifier": 0,
+          "notes": "",
+          "effects": [],
+          "items": [],
+          "total": 0
+        },
+        "assassinorum": {
+          "name": "Assassinorum",
+          "sources": [],
+          "modifier": 0,
+          "notes": ""
+        }
+      },
+      "usePatron": false
+    },
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "solars": 0,
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": null
+        },
+        "fly": {
+          "value": "none",
+          "modifier": null
+        }
+      },
+      "wounds": {
+        "max": null,
+        "value": 2
+      },
+      "criticals": {
+        "max": null,
+        "value": 0
+      },
+      "hitLocations": {
+        "head": {
+          "range": [
+            1,
+            1
+          ],
+          "label": "IMPMAL.Head",
+          "abbrev": "IMPMAL.HeadAbbrev"
+        },
+        "leftArm": {
+          "range": [
+            2,
+            2
+          ],
+          "label": "IMPMAL.LeftArm",
+          "abbrev": "IMPMAL.LeftArmAbbrev"
+        },
+        "rightArm": {
+          "range": [
+            3,
+            3
+          ],
+          "label": "IMPMAL.RightArm",
+          "abbrev": "IMPMAL.RightArmAbbrev"
+        },
+        "leftLeg": {
+          "range": [
+            4,
+            4
+          ],
+          "label": "IMPMAL.LeftLeg",
+          "abbrev": "IMPMAL.LeftLegAbbrev"
+        },
+        "rightLeg": {
+          "range": [
+            5,
+            5
+          ],
+          "label": "IMPMAL.RightLeg",
+          "abbrev": "IMPMAL.RightLegAbbrev"
+        },
+        "body": {
+          "range": [
+            6,
+            10
+          ],
+          "label": "IMPMAL.Body",
+          "abbrev": "IMPMAL.BodyAbbrev"
+        }
+      },
+      "superiority": null,
+      "action": ""
+    },
+    "xp": {
+      "total": 1450,
+      "other": {
+        "list": [
+          {
+            "description": "Trooper",
+            "xp": -350
+          }
+        ]
+      }
+    },
+    "details": {
+      "age": 26,
+      "feature": "Carries an Arsenal",
+      "eyes": "Black",
+      "hair": "Bald",
+      "height": "5'11",
+      "weight": "210",
+      "divination": "",
+      "species": "Human"
+    },
+    "origin": {
+      "id": "OjFcYwOwNH6WlUjT",
+      "name": ""
+    },
+    "faction": {
+      "id": "yJNgIfm0cNk85aIe",
+      "name": ""
+    },
+    "role": {
+      "id": "xiPnNRIX1nGk3wmO",
+      "name": ""
+    },
+    "patron": {
+      "id": "zX7J80IKN58Rqsn4"
+    },
+    "goal": {
+      "short": "NEW",
+      "long": "Get Promoted"
+    },
+    "connections": {
+      "list": []
+    },
+    "corruption": {
+      "value": 2,
+      "max": 0
+    },
+    "fate": {
+      "max": 3,
+      "value": 2
+    },
+    "handed": "right",
+    "hands": {
+      "left": {
+        "id": "YYJfq7rpKai3YY4R"
+      },
+      "right": {
+        "id": "YYJfq7rpKai3YY4R"
+      }
+    },
+    "warp": {
+      "charge": null,
+      "state": 0
+    },
+    "augmetics": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Jaq",
+    "displayName": 0,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "tokenizer/pc-images/miltarum.Token1wng5G5KQ4tEPU2A.webp?1728774666073",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "splatter": {
+        "bloodColor": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "autorotate": {
+        "enabled": null,
+        "offset": null
+      }
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "lWjke9bJb59710xJ",
+      "name": "Hive World",
+      "type": "origin",
+      "img": "modules/impmal-core/assets/icons/origins/hive-world.webp",
+      "system": {
+        "notes": {
+          "player": "<p><strong>Example Macharian Hive Worlds</strong></p><p><em>Persepolis, Voll</em></p><p>You hail from a hive world, a planet dominated by one or more titanic vertical cities known as ‘hives’. A hive is essentially hundreds of cities stacked one on top of the other, with the population of a single hive city often in the billions. No two hives are identical, but most are sealed environments where everything from the air citizens breathe, to their very bodies, are perpetually recycled — ‘hivers’ rarely leave the level they are born on, let alone the hive city itself. These massive populations are set to work in vast manufactora to fulfil the insatiable industrial labour needs of the Imperium. Life is strictly stratified, with the highborn living in the upper reaches with access to air and sunlight, and the middle levels devoted to perpetual toil. Those that will not accept a life of endless labour sink into the lawless bowels of the lower hive, where criminals and cults hold sway, and only the strong endure.</p><ul><li><p>You gain +5 Agility and +5 to either Ballistic Skill, Perception, or Fellowship.</p></li><li><p>You gain a set of Ugly @UUID[Compendium.impmal-core.items.Item.OdTP4DEK3oGAjMWZ]{Filtration Plugs}.</p></li></ul>",
+          "gm": ""
+        },
+        "equipment": {
+          "list": [
+            {
+              "uuid": "Compendium.impmal-core.items.Item.OdTP4DEK3oGAjMWZ"
+            }
+          ]
+        },
+        "characteristics": {
+          "base": "ag",
+          "choices": [
+            "bs",
+            "per",
+            "fel"
+          ]
+        },
+        "factionTable": {
+          "id": "BJ6DhPFbEXII8C9f",
+          "name": "Hive World Faction",
+          "uuid": "Compendium.impmal-core.tables.RollTable.BJ6DhPFbEXII8C9f"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.OjFcYwOwNH6WlUjT",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770639996,
+        "modifiedTime": 1728770639996,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      },
+      "_id": "OjFcYwOwNH6WlUjT"
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Filtration Plugs",
+      "system": {
+        "notes": {
+          "player": "<p>These items are simple to manufacture and use. They come in pairs and are each set within the nostril to eliminate noxious pollutants and harmful gases (so long as the user remembers to not breathe through their mouth).</p><p>While using filtration plugs, you gain +2 SL on Fortitude Tests made to withstand the effects of harmful gases, such as in Zones with the @UUID[JournalEntry.hdElQAwiBr5AyoRf.JournalEntryPage.zQYkbNcsJmGintdL#hazard]{Hazard} Trait.</p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": true
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 20,
+        "availability": "common",
+        "quantity": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "enabled": false
+        },
+        "traits": {
+          "list": []
+        }
+      },
+      "_id": "OdTP4DEK3oGAjMWZ",
+      "img": "modules/impmal-core/assets/icons/equipment/filtration-plugs.webp",
+      "effects": [
+        {
+          "name": "Filtration Plugs",
+          "_id": "2zAmFIH3i4b4QsUk",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/equipment/filtration-plugs.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": true,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Fortitude Tests to withstand harmful gases",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.tL9YNmXaKogz1FAE]",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.dc8x3nb7mpNiKqKd]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770647070,
+        "modifiedTime": 1730063826918,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "folder": "dVG9Ismc7wWJ5Dno",
+      "name": "Astra Militarum",
+      "type": "faction",
+      "_id": "yJNgIfm0cNk85aIe",
+      "img": "modules/impmal-core/assets/icons/factions/astra-militarum.webp",
+      "system": {
+        "patron": {
+          "duty": {
+            "list": [
+              {
+                "uuid": "Compendium.impmal-core.items.Item.ObkzgUGyoFE2R5x3"
+              },
+              {
+                "uuid": "Compendium.impmal-core.items.Item.jdi2fWfiKW3nLblG"
+              }
+            ]
+          },
+          "influence": {
+            "factions": {
+              "astra-militarum": {
+                "name": "Astra Militarum",
+                "value": 2,
+                "notes": ""
+              }
+            }
+          },
+          "notes": "<p>Your Patron is a member of the @UUID[JournalEntry.uJURMn2glWHhjqJk.JournalEntryPage.L6dhVRYQmfBKlwgO]{Astra Militarum}, commonly known as the Imperial Guard, the largest fighting force in the galaxy. It consists of innumerable infantry, fighting vehicles, and specialists spread across regiments drawn from nearly every world of the Imperium.</p><ul><li><p><strong>Influence</strong>: Your Patron has +2 Influence with the Astra Militarum.</p></li><li><p><strong>Duty</strong>: Your Patron is either a @UUID[Compendium.impmal-core.items.Item.ObkzgUGyoFE2R5x3]{Lord-Commissar} or a @UUID[Compendium.impmal-core.items.Item.jdi2fWfiKW3nLblG]{Senior Officer}</p></li></ul>"
+        },
+        "character": {
+          "solars": 300,
+          "influence": {
+            "factions": {
+              "astra-militarum": {
+                "name": "Astra Militarum",
+                "value": 1
+              }
+            }
+          },
+          "characteristics": {
+            "base": "tgh",
+            "choices": [
+              "ws",
+              "bs",
+              "str"
+            ]
+          },
+          "advances": {
+            "value": 5,
+            "skills": [
+              "athletics",
+              "discipline",
+              "fortitude",
+              "melee",
+              "ranged",
+              "stealth"
+            ]
+          },
+          "talents": {
+            "structure": {
+              "type": "or",
+              "id": "root",
+              "options": [
+                {
+                  "id": "jYJy4Zka9X9HEBms",
+                  "type": "option"
+                }
+              ]
+            },
+            "options": [
+              {
+                "type": "item",
+                "name": "Drilled",
+                "id": "jYJy4Zka9X9HEBms",
+                "idType": "id",
+                "documentId": "rWtFlGbvQIt894Ff",
+                "diff": {},
+                "filters": []
+              }
+            ]
+          },
+          "equipment": {
+            "structure": {
+              "type": "and",
+              "id": "root",
+              "options": [
+                {
+                  "id": "ygga5pXXBTMpqzxm",
+                  "type": "option"
+                },
+                {
+                  "id": "RcNefJ6EwC3QD6kq",
+                  "type": "option"
+                },
+                {
+                  "id": "PNu1GxZyYbmAm9Ci",
+                  "type": "option"
+                },
+                {
+                  "id": "j5xiHfR2WA2MeYXU",
+                  "type": "or",
+                  "options": [
+                    {
+                      "id": "2vVlOUlPCLEe4tVJ",
+                      "type": "option"
+                    },
+                    {
+                      "id": "VSyKCDzmVj72qd7B",
+                      "type": "option"
+                    },
+                    {
+                      "id": "yH6VmWDFuxYzgmO2",
+                      "type": "option"
+                    },
+                    {
+                      "id": "Pe0J8oCpcVn96Uow",
+                      "type": "option"
+                    },
+                    {
+                      "id": "jmR10A08yj732qun",
+                      "type": "option"
+                    },
+                    {
+                      "id": "0oEBLL58rNlUo0ED",
+                      "type": "option"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options": [
+              {
+                "type": "item",
+                "id": "ygga5pXXBTMpqzxm",
+                "name": "Knife",
+                "documentId": "qQ8Y8nmiaTaKgzvs",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "RcNefJ6EwC3QD6kq",
+                "name": "Astra Militarum Flak Armour",
+                "documentId": "pEFmeV070knXgwZ5",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "PNu1GxZyYbmAm9Ci",
+                "name": "Frag Grenade",
+                "documentId": "0fB10YisRQoUabab",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "VSyKCDzmVj72qd7B",
+                "name": "Lasgun",
+                "documentId": "8tlu4X5Qpzl98Uye",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "2vVlOUlPCLEe4tVJ",
+                "name": "Laspistol",
+                "documentId": "jNxvsLBybPPenmmn",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "yH6VmWDFuxYzgmO2",
+                "name": "Las Carbine",
+                "documentId": "hWEzRGbvoBrhgKwJ",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "Pe0J8oCpcVn96Uow",
+                "name": "Entrenching Tool",
+                "documentId": "Dlv5TTOiyOJphsIl",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "id": "jmR10A08yj732qun",
+                "name": "Cameleoline Cloak",
+                "documentId": "fhXBHDbBiY6PUUTc",
+                "diff": {},
+                "idType": "id",
+                "filters": []
+              },
+              {
+                "type": "item",
+                "name": "Chainsword",
+                "id": "0oEBLL58rNlUo0ED",
+                "idType": "id",
+                "documentId": "tjUKnuDKTCCon28r",
+                "diff": {},
+                "filters": []
+              }
+            ]
+          },
+          "duty": {
+            "list": [
+              {
+                "uuid": "Compendium.impmal-core.items.Item.GGTS3zL8tDFTIhEd"
+              },
+              {
+                "uuid": "Compendium.impmal-core.items.Item.dXuguKPgyTyk86u3"
+              },
+              {
+                "uuid": "Compendium.impmal-core.items.Item.060QdCc5DdlQwdhI"
+              }
+            ]
+          },
+          "notes": "<p>@UUID[JournalEntry.uJURMn2glWHhjqJk.JournalEntryPage.L6dhVRYQmfBKlwgO]{Astra Militarum}</p><ul><li><p>You gain +5 Toughness and +5 to either Weapon Skill, Ballistic Skill, or Strength.</p></li><li><p>You have 5 Advances to spend on Athletics, Discipline, Fortitude, Melee, Ranged, and Stealth.</p></li><li><p>You gain the @UUID[Compendium.impmal-core.items.Item.rWtFlGbvQIt894Ff]{Drilled} Talent.</p></li><li><p>You gain +1 Influence with the Astra Militarum.</p></li><li><p>You gain a @UUID[Compendium.impmal-core.items.Item.qQ8Y8nmiaTaKgzvs]{Knife}, a set of @UUID[Compendium.impmal-core.items.Item.pEFmeV070knXgwZ5]{Astra Militarum Flak Armour}, a @UUID[Compendium.impmal-core.items.Item.0fB10YisRQoUabab]{Frag Grenade}, and 300 solars.</p></li><li><p>You gain your choice of any two of the following; a @UUID[Compendium.impmal-core.items.Item.8tlu4X5Qpzl98Uye]{Lasgun}, @UUID[Compendium.impmal-core.items.Item.jNxvsLBybPPenmmn]{Laspistol}, @UUID[Compendium.impmal-core.items.Item.hWEzRGbvoBrhgKwJ]{Las Carbine}, @UUID[Compendium.impmal-core.items.Item.Dlv5TTOiyOJphsIl]{Entrenching Tool}, @UUID[Compendium.impmal-core.items.Item.fhXBHDbBiY6PUUTc]{Cameleoline Cloak}, or @UUID[Compendium.impmal-core.items.Item.tjUKnuDKTCCon28r]{Chainsword}.</p></li></ul>"
+        }
+      },
+      "effects": [],
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "PCQgaY5E7QaWxBlV": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.yJNgIfm0cNk85aIe",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770654643,
+        "modifiedTime": 1728770654643,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "name": "Drilled",
+      "system": {
+        "notes": {
+          "player": "<p>You’ve been trained to face down the innumerable dangers of the universe, especially if you are backed up by other trained warriors. You have Advantage on Tests to resist the Frightened Condition, and you gain +1 SL to Discipline Tests for every ally with the Drilled Talent in the same Zone as you.</p><p>If another member of your group has the Drilled Talent, you can both choose to purchase the Drilled Talent again to gain the following:</p><ul><li><p><strong>Kill Team</strong>: When you are in the same Zone as another member of your party with the Drilled Talent, you can choose to act immediately after them in Initiative and gain +1 SL to all Tests.</p></li></ul>",
+          "gm": ""
+        },
+        "requirement": {
+          "value": "1 Advance in Discipline",
+          "script": "return this.actor.system.skills.discipline.advances >= 1"
+        },
+        "test": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "taken": 2,
+        "xpCost": 0,
+        "effectOptions": {
+          "list": []
+        },
+        "effectTakenRequirement": {},
+        "effectRepeatable": {},
+        "effectChoices": {}
+      },
+      "type": "talent",
+      "folder": "0BFlDbZ88BuqNlV2",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "effects": [
+        {
+          "name": "Kill Team",
+          "_id": "03jGTJ3fcKic4nSo",
+          "changes": [],
+          "disabled": true,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Activate this effect when using the <strong>Kill Team</strong> option.</p>",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": 1729384590788,
+            "lastModifiedBy": "ZMexQSHmnC43zaWa"
+          },
+          "img": "modules/impmal-core/assets/icons/generic.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Kill Team",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "[Script.2WP55kSyhlLOvCLP]",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.6yX3fQEJHfGmXLwW]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770657807,
+        "modifiedTime": 1729384532827,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      },
+      "_id": "nVp4iP31Iux1tyyv"
+    },
+    {
+      "name": "Astra Militarum Flak Armour",
+      "type": "protection",
+      "folder": "ZuAeviXZUQVXVQQr",
+      "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 5
+        },
+        "cost": 1000,
+        "availability": "rare",
+        "quantity": 1,
+        "equipped": {
+          "value": true
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "loud"
+            }
+          ]
+        },
+        "category": "mundane",
+        "armour": 4,
+        "locations": {
+          "list": [
+            "rightLeg",
+            "leftLeg",
+            "rightArm",
+            "leftArm",
+            "body",
+            "head"
+          ]
+        },
+        "damage": {},
+        "rended": {}
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770657807,
+        "modifiedTime": 1728771328185,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      },
+      "_id": "A50CLqZxNsJCtM3q"
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Entrenching Tool",
+      "system": {
+        "notes": {
+          "player": "<p>Perhaps the most basic tool in the @UUID[JournalEntry.GPqYZykonC12TJb1.JournalEntryPage.r6JYS3jOfrAEorvd]{Astra Militarum}, the standard model has a wide blade ideal for digging trenches, pits, and simply moving sand and dirt from one location to another. Most types are compact and can fold to a size that can be stowed away when marching or fighting.</p><p>An Entrenching Tool can also be used as an @UUID[Compendium.impmal-core.items.Item.lwPymw5Hah0H8Ey5]{Improvised (One-handed)} melee weapon. A properly sharpened Entrenching Tool counts as an @UUID[Compendium.impmal-core.items.Item.cnbaSByME7caQohv]{Axe} instead.</p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": false
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 20,
+        "availability": "common",
+        "quantity": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "enabled": false
+        },
+        "traits": {
+          "list": []
+        }
+      },
+      "img": "modules/impmal-core/assets/icons/equipment/entrenching-tool.webp",
+      "effects": [],
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770657807,
+        "modifiedTime": 1728770657807,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      },
+      "_id": "qyY8BIzobpjrKoHR"
+    },
+    {
+      "folder": "Mq65Eybj3VyKk2iJ",
+      "name": "Warrior",
+      "type": "role",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.uJURMn2glWHhjqJk.JournalEntryPage.KznGxzLZLr1QaCoN]{Warrior}</p><p><strong>Talents</strong>: Choose 2 Talents from @UUID[Compendium.impmal-core.items.Item.yaLYVLB3Mani31Bw]{Deadeye}, @UUID[Compendium.impmal-core.items.Item.Y6uxJU4DSkAhInLb]{Disarm}, @UUID[Compendium.impmal-core.items.Item.rWtFlGbvQIt894Ff]{Drilled}, @UUID[Compendium.impmal-core.items.Item.gA4E3advCZOPiOgR]{Duellist}, @UUID[Compendium.impmal-core.items.Item.Te254iTyJkwBk53f]{Tactical Movement}, and @UUID[Compendium.impmal-core.items.Item.vZk3RQwVjCjZAryj]{Two-handed Cleave}.</p><p><strong>Skill Advances</strong>: You have 3 Advances to spend on Athletics, Fortitude, Medicae, Melee, Ranged, and Reflexes. </p><p><strong>Specialisations</strong>: You have 2 Advances to spend on any Specialisations in Melee, Ranged, and Reflexes. </p><p><strong>Equipment</strong>: You gain a @UUID[Compendium.impmal-core.items.Item.qQ8Y8nmiaTaKgzvs]{Knife}, any Mundane Melee weapon or a @UUID[Compendium.impmal-core.items.Item.tjUKnuDKTCCon28r]{Chainsword}, a @UUID[Compendium.impmal-core.items.Item.jNxvsLBybPPenmmn]{Laspistol} or a @UUID[Compendium.impmal-core.items.Item.vCeI41URKYV6iuAD]{Stub Revolver}, a @UUID[Compendium.impmal-core.items.Item.8tlu4X5Qpzl98Uye]{Lasgun} or a @UUID[Compendium.impmal-core.items.Item.QmZnSWRZOXFzyuWh]{Shotgun (Combat)}, a @UUID[Compendium.impmal-core.items.Item.0fB10YisRQoUabab]{Frag Grenade}, @UUID[Compendium.impmal-core.items.Item.WCb8cnulcFJqgoxX]{Scrap-plate} or a @UUID[Compendium.impmal-core.items.Item.hBLh8oe2wGUKmjV1]{Flak Jacket}, a @UUID[Compendium.impmal-core.items.Item.B55qG1YQTS9IyuTm]{Backpack}, a set of @UUID[Compendium.impmal-core.items.Item.O5AtUszQGDbi8qmS]{Survival Gear}, and a @UUID[Compendium.impmal-core.items.Item.Yp1Fmiml09wxHj4h]{Vox Bead}.</p>",
+          "gm": ""
+        },
+        "skills": {
+          "value": 3,
+          "list": [
+            "athletics",
+            "fortitude",
+            "medicae",
+            "melee",
+            "ranged",
+            "reflexes"
+          ]
+        },
+        "specialisations": {
+          "value": 2,
+          "list": [
+            {},
+            {},
+            {}
+          ],
+          "keys": [
+            "melee",
+            "ranged",
+            "reflexes"
+          ]
+        },
+        "equipment": {
+          "structure": {
+            "type": "or",
+            "id": "root",
+            "options": []
+          },
+          "options": []
+        },
+        "talents": {
+          "number": 2,
+          "list": [
+            {
+              "uuid": "Compendium.impmal-core.items.Item.yaLYVLB3Mani31Bw"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.Y6uxJU4DSkAhInLb"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.rWtFlGbvQIt894Ff"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.gA4E3advCZOPiOgR"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.Te254iTyJkwBk53f"
+            },
+            {
+              "uuid": "Compendium.impmal-core.items.Item.vZk3RQwVjCjZAryj"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.tXNLuikTOveBv5vs"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.tXNLuikTOveBv5vs",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728770700511,
+        "modifiedTime": 1728770700511,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      },
+      "_id": "xiPnNRIX1nGk3wmO"
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Long Guns",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#ranged-(bs)]{Ranged}</p><p>Extensive training in the use of longer firearms, such as lasguns, shotguns, bolters, autoguns, meltaguns, and similar ranged weapons. </p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771011563,
+        "modifiedTime": 1728771011563,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      },
+      "_id": "jkEVa1cQDw3xlT0G"
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Ordnance",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#ranged-(bs)]{Ranged}</p><p>Extensive training in the use of heavier ranged weaponry, such as lascannons, heavy bolters, missile launchers, and similarly devastating means of causing death and destruction. </p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771014923,
+        "modifiedTime": 1728771014923,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      },
+      "_id": "oT9uE04bDo0gRY9J"
+    },
+    {
+      "name": "Tactical Movement",
+      "system": {
+        "notes": {
+          "player": "<p>You move in a calculated manner ensuring you can get into a safe position quickly. You can @UUID[JournalEntry.hdElQAwiBr5AyoRf.JournalEntryPage.xf46pBDy93sT0ZDl#take-cover]{Take Cover} as a @UUID[JournalEntry.hdElQAwiBr5AyoRf.JournalEntryPage.YEIzXenjBxa3GlTQ#free-actions]{Free Action}.</p>",
+          "gm": ""
+        },
+        "requirement": {
+          "value": "1 Advance in both Athletics and Discipline",
+          "script": "return this.actor.system.skills.athletics.advances >= 1 && this.actor.system.skills.discipline.advances >= 1"
+        },
+        "test": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "taken": 1,
+        "xpCost": 100,
+        "effectOptions": {
+          "list": []
+        },
+        "effectTakenRequirement": {},
+        "effectRepeatable": {},
+        "effectChoices": {}
+      },
+      "type": "talent",
+      "folder": "0BFlDbZ88BuqNlV2",
+      "_id": "Te254iTyJkwBk53f",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.Te254iTyJkwBk53f",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771127562,
+        "modifiedTime": 1728771127562,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Backpack/Slings",
+      "system": {
+        "notes": {
+          "player": "<p>When worn, a backpack or sling increases your maximum Encumbrance by 4. </p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": true
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 20,
+        "availability": "common",
+        "quantity": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "enabled": false
+        },
+        "traits": {
+          "list": []
+        }
+      },
+      "_id": "B55qG1YQTS9IyuTm",
+      "img": "modules/impmal-core/assets/icons/equipment/backpack.webp",
+      "effects": [
+        {
+          "name": "Backpack/Slings",
+          "_id": "Ua29vNVcPJgdQNo0",
+          "changes": [
+            {
+              "key": "system.encumbrance.overburdened",
+              "mode": 2,
+              "value": "4",
+              "priority": null
+            },
+            {
+              "key": "system.encumbrance.restrained",
+              "mode": 2,
+              "value": "4",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": 1733073827535,
+            "lastModifiedBy": "TAP9sJwjBBWROTNk"
+          },
+          "img": "modules/impmal-core/assets/icons/equipment/backpack.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": true,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.B55qG1YQTS9IyuTm",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771299221,
+        "modifiedTime": 1728771306410,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "name": "Laspistol",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 400,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": false
+        },
+        "damage": {
+          "base": "5",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "reliable"
+            }
+          ]
+        },
+        "ammoCost": 100,
+        "attackType": "ranged",
+        "category": "las",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 4,
+          "current": 4
+        },
+        "ammo": {
+          "id": "TuqGKAgAuWMWxWbE"
+        },
+        "mods": {
+          "list": [
+            {
+              "folder": "qanHaDPvuEhF6FOo",
+              "name": "Laser Sight",
+              "type": "modification",
+              "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+              "system": {
+                "notes": {
+                  "player": "<p>This attachment uses a low-power laser to pick out a target so that the user can more easily make a kill shot. Others (including the target) may notice the appearance of the small red dot, though, revealing the shooter's presence.</p><p>A Laser Sight adds +1 SL to Ranged Attacks made with the weapon, but targets have Advantage on Awareness Tests to spot the wielder. An unaware target who notices the dot may attempt to Dodge the ranged attack. The sight may be switched on or off once per round as a Free Action.</p>",
+                  "gm": ""
+                },
+                "encumbrance": {
+                  "value": 0
+                },
+                "cost": 50,
+                "availability": "scarce",
+                "quantity": 1,
+                "category": "sight",
+                "usedWith": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+                "addedTraits": {
+                  "list": []
+                },
+                "removedTraits": {
+                  "list": []
+                },
+                "disabled": false
+              },
+              "effects": [
+                {
+                  "name": "Laser Sight",
+                  "_id": "uS6d4tmiJQ4OkH4v",
+                  "changes": [],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "",
+                  "origin": null,
+                  "transfer": true,
+                  "statuses": [],
+                  "flags": {
+                    "impmal": {
+                      "applicationData": {
+                        "type": "document",
+                        "documentType": "Item",
+                        "avoidTest": {
+                          "value": "none"
+                        },
+                        "prompt": false
+                      },
+                      "manualEffectKeys": false,
+                      "scriptData": [
+                        {
+                          "label": "+1 SL to Ranged Attacks",
+                          "string": "[Script.6yX3fQEJHfGmXLwW]",
+                          "trigger": "dialog",
+                          "options": {
+                            "dialog": {
+                              "hideScript": "[Script.biFsCPl9L92RbfLL]",
+                              "activateScript": "[Script.VVKEI5ZcmQnqViEW]",
+                              "submissionScript": "",
+                              "targeter": false
+                            },
+                            "immediate": {
+                              "deleteEffect": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "tint": "#ffffff",
+                  "_stats": {
+                    "coreVersion": "12.331",
+                    "systemId": null,
+                    "systemVersion": null,
+                    "createdTime": null,
+                    "modifiedTime": null,
+                    "lastModifiedBy": null,
+                    "compendiumSource": null,
+                    "duplicateSource": null
+                  },
+                  "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+                  "type": "base",
+                  "system": {},
+                  "sort": 0
+                }
+              ],
+              "sort": 0,
+              "ownership": {
+                "default": 0,
+                "Re1K6cm6B4B40dzP": 3
+              },
+              "flags": {},
+              "_stats": {
+                "systemId": "impmal",
+                "systemVersion": "1.0.1",
+                "coreVersion": "12.331",
+                "createdTime": 1689193272625,
+                "modifiedTime": 1702953823083,
+                "lastModifiedBy": "Re1K6cm6B4B40dzP",
+                "compendiumSource": "Compendium.impmal-core.items.Item.s8IYzKs3E2tDNutI",
+                "duplicateSource": null
+              },
+              "_id": "s8IYzKs3E2tDNutI"
+            }
+          ]
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "jNxvsLBybPPenmmn",
+      "img": "modules/impmal-core/assets/icons/weapons/laspistol.webp",
+      "effects": [],
+      "sort": 3900000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.jNxvsLBybPPenmmn",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771532006,
+        "modifiedTime": 1729133657849,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    },
+    {
+      "name": "Laspistol",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 400,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": false
+        },
+        "damage": {
+          "base": "5",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "reliable"
+            }
+          ]
+        },
+        "ammoCost": 100,
+        "attackType": "ranged",
+        "category": "las",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 4,
+          "current": 4
+        },
+        "ammo": {
+          "id": "TuqGKAgAuWMWxWbE"
+        },
+        "mods": {
+          "list": [
+            {
+              "folder": "qanHaDPvuEhF6FOo",
+              "name": "Laser Sight",
+              "type": "modification",
+              "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+              "system": {
+                "notes": {
+                  "player": "<p>This attachment uses a low-power laser to pick out a target so that the user can more easily make a kill shot. Others (including the target) may notice the appearance of the small red dot, though, revealing the shooter's presence.</p><p>A Laser Sight adds +1 SL to Ranged Attacks made with the weapon, but targets have Advantage on Awareness Tests to spot the wielder. An unaware target who notices the dot may attempt to Dodge the ranged attack. The sight may be switched on or off once per round as a Free Action.</p>",
+                  "gm": ""
+                },
+                "encumbrance": {
+                  "value": 0
+                },
+                "cost": 50,
+                "availability": "scarce",
+                "quantity": 1,
+                "category": "sight",
+                "usedWith": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+                "addedTraits": {
+                  "list": []
+                },
+                "removedTraits": {
+                  "list": []
+                },
+                "disabled": false
+              },
+              "effects": [
+                {
+                  "name": "Laser Sight",
+                  "_id": "uS6d4tmiJQ4OkH4v",
+                  "changes": [],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "",
+                  "origin": null,
+                  "transfer": true,
+                  "statuses": [],
+                  "flags": {
+                    "impmal": {
+                      "applicationData": {
+                        "type": "document",
+                        "documentType": "Item",
+                        "avoidTest": {
+                          "value": "none"
+                        },
+                        "prompt": false
+                      },
+                      "manualEffectKeys": false,
+                      "scriptData": [
+                        {
+                          "label": "+1 SL to Ranged Attacks",
+                          "string": "[Script.6yX3fQEJHfGmXLwW]",
+                          "trigger": "dialog",
+                          "options": {
+                            "dialog": {
+                              "hideScript": "[Script.biFsCPl9L92RbfLL]",
+                              "activateScript": "[Script.VVKEI5ZcmQnqViEW]",
+                              "submissionScript": "",
+                              "targeter": false
+                            },
+                            "immediate": {
+                              "deleteEffect": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "tint": "#ffffff",
+                  "_stats": {
+                    "coreVersion": "12.331",
+                    "systemId": null,
+                    "systemVersion": null,
+                    "createdTime": null,
+                    "modifiedTime": null,
+                    "lastModifiedBy": null,
+                    "compendiumSource": null,
+                    "duplicateSource": null
+                  },
+                  "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+                  "type": "base",
+                  "system": {},
+                  "sort": 0
+                }
+              ],
+              "sort": 0,
+              "ownership": {
+                "default": 0,
+                "Re1K6cm6B4B40dzP": 3
+              },
+              "flags": {},
+              "_stats": {
+                "systemId": "impmal",
+                "systemVersion": "1.0.1",
+                "coreVersion": "12.331",
+                "createdTime": 1689193272625,
+                "modifiedTime": 1702953823083,
+                "lastModifiedBy": "Re1K6cm6B4B40dzP",
+                "compendiumSource": "Compendium.impmal-core.items.Item.s8IYzKs3E2tDNutI",
+                "duplicateSource": null
+              },
+              "_id": "s8IYzKs3E2tDNutI"
+            }
+          ]
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "OEbF3zSjhDLSVQSh",
+      "img": "modules/impmal-core/assets/icons/weapons/laspistol.webp",
+      "effects": [],
+      "sort": 3900000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.jNxvsLBybPPenmmn",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771536962,
+        "modifiedTime": 1729131908809,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    },
+    {
+      "name": "Robes/Light Leathers",
+      "type": "protection",
+      "folder": "ZuAeviXZUQVXVQQr",
+      "_id": "D9X5jPYYafLyPqKh",
+      "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "cost": 10,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": true
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "subtle"
+            }
+          ]
+        },
+        "category": "mundane",
+        "armour": 1,
+        "locations": {
+          "list": [
+            "rightArm",
+            "leftArm",
+            "body",
+            "rightLeg",
+            "leftLeg"
+          ]
+        },
+        "damage": {},
+        "rended": {}
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.D9X5jPYYafLyPqKh",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728771789637,
+        "modifiedTime": 1728771791014,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "name": "Laspistol Ammo",
+      "type": "ammo",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 200,
+        "availability": "common",
+        "quantity": 10,
+        "custom": false,
+        "priceMultiplier": 1,
+        "usedWith": "",
+        "damage": null,
+        "addedTraits": {
+          "list": []
+        },
+        "removedTraits": {
+          "list": []
+        }
+      },
+      "_id": "TuqGKAgAuWMWxWbE",
+      "img": "modules/impmal-core/assets/icons/ammo/ammo.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.5",
+        "createdTime": 1728772021504,
+        "modifiedTime": 1733073810325,
+        "lastModifiedBy": "TAP9sJwjBBWROTNk"
+      }
+    },
+    {
+      "name": "Close Quarters Discipline",
+      "system": {
+        "notes": {
+          "player": "<p>Countless hours of practice, training, and drilling have taught you to focus on firing your weapon, even when you are mere inches from danger. An enemy within Immediate range of you does not impose Disadvantage on your Ranged Attacks.</p>",
+          "gm": ""
+        },
+        "requirement": {
+          "value": "2 Advances in both Discipline and Ranged",
+          "script": "return this.actor.system.skills.discipline.advances >= 2 && this.actor.system.skills.ranged.advances >= 2"
+        },
+        "test": {
+          "difficulty": "",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          }
+        },
+        "taken": 1,
+        "xpCost": 100,
+        "effectOptions": {
+          "list": []
+        },
+        "effectTakenRequirement": {},
+        "effectRepeatable": {},
+        "effectChoices": {}
+      },
+      "type": "talent",
+      "folder": "0BFlDbZ88BuqNlV2",
+      "_id": "4TLQA0xONuQb5MuJ",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.4TLQA0xONuQb5MuJ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728775865457,
+        "modifiedTime": 1728775865457,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "folder": "qanHaDPvuEhF6FOo",
+      "name": "Exterminator Cartridge",
+      "type": "modification",
+      "_id": "BMklaKKiyCUgQfOX",
+      "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+      "system": {
+        "notes": {
+          "player": "<p>An Exterminator Cartridge is a stripped-down Flamer with enough fuel for a single use. They are popular among Imperial fanatics and zealots, who attach them to roaring Chainswords to douse their foes in cleansing fire as they charge in a blazing embodiment of the Emperor's fury.</p><p>An Exterminator Cartridge is a @UUID[Compendium.impmal-core.items.Item.blRx8XLXQaD9sjDz]{Flamer} that can be attached to any melee or ranged weapon. It can be fired as an Action, counting as a Ranged Attack. Once an Exterminator Cartridge has been fired, the Exterminator Cartridge is expended and takes 5 minutes to reload. Reloads can be acquired for 5 solars, and are Common.</p>",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 100,
+        "availability": "common",
+        "quantity": 10,
+        "category": "combat",
+        "usedWith": "Any Melee or Ranged weapon with the Two-Handed Trait.",
+        "addedTraits": {
+          "list": []
+        },
+        "removedTraits": {
+          "list": []
+        },
+        "disabled": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.BMklaKKiyCUgQfOX",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1728776019996,
+        "modifiedTime": 1728776055903,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "name": "Exterminator Charge (Flamer)",
+      "type": "weapon",
+      "_id": "xGzkWtj8oDMUEbED",
+      "img": "modules/impmal-core/assets/icons/weapons/hand-flamer.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false
+        },
+        "damage": {
+          "base": "8",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": []
+        },
+        "ammoCost": 5,
+        "attackType": "ranged",
+        "category": "flame",
+        "spec": "longGun",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 0
+        },
+        "ammo": {
+          "id": "G92HHFjkBVdUrLKy"
+        },
+        "mods": {
+          "list": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "OiC3nmfMqKDD4B7W": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.xGzkWtj8oDMUEbED",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.3",
+        "createdTime": 1729134999637,
+        "modifiedTime": 1730592030801,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "name": "Blessed Rounds",
+      "type": "ammo",
+      "_id": "QFogNeNyBwMtM2VI",
+      "img": "modules/impmal-core/assets/icons/ammo/ammo.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The classification of Blessed ammunition covers a broad range of hand-crafted and sanctified ammunition. Whether they are bolts and solid slugs engraved with wards of warp-banishment, or promethium purified and consecrated with holy oils, or crossbow bolts and stakes tipped with silver, inscribed with prayers and devotions, blessed ammunition is useful when hunting the most impure heretic or warp-spawned horror. </p><p></p><p>Blessed ammunition adds the wielder’s Willpower Bonus (WilB) to the Damage when attacking a daemon or creature with a Warp Threshold.</p>",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "exotic",
+        "quantity": 8,
+        "custom": false,
+        "priceMultiplier": 2,
+        "usedWith": "Solid Projectile Weapons",
+        "damage": null,
+        "addedTraits": {
+          "list": []
+        },
+        "removedTraits": {
+          "list": []
+        }
+      },
+      "effects": [
+        {
+          "name": "Blessed Rounds",
+          "img": "icons/svg/aura.svg",
+          "_id": "O4H0sRkaW9J1wVIb",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "preApplyScript": "const results_html = `<h3>Blessed Rounds</h3>';\nif(!(target.warp.charge)){\n\tconsole.log('psyker');\n\treturn true;\n} else {\n\tconsole.log('not psyker');\n\treturn false;\n}",
+              "equipTransfer": false,
+              "enableConditionScript": "let target = Array.from(game.user.targets)[0];\n\nconst results_html = `<h3>Blessed Rounds</h3>';\nif(!(target.warp)){\nChatMessage.create({\n    user: game.user._id,\n    content: results_html\n});\n}",
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": true
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "New Script",
+                "script": "",
+                "options": {
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {
+                "barrier": false,
+                "difficult": false,
+                "warpTouched": false
+              },
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "impmal",
+            "systemVersion": "1.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "OiC3nmfMqKDD4B7W": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.QFogNeNyBwMtM2VI",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1729374984768,
+        "modifiedTime": 1729374996316,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    },
+    {
+      "name": "Arbites Shotgun Ammo (Inferno Shells)",
+      "type": "ammo",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 200,
+        "availability": "rare",
+        "quantity": 22,
+        "custom": false,
+        "priceMultiplier": 1,
+        "usedWith": "Bolt weapons, Shotguns",
+        "damage": null,
+        "addedTraits": {
+          "list": [
+            {
+              "key": "inflict",
+              "value": "Ablaze"
+            }
+          ]
+        },
+        "removedTraits": {
+          "list": []
+        }
+      },
+      "_id": "NGf7cVOaUI5g8cQ0",
+      "img": "modules/impmal-core/assets/icons/ammo/ammo.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.4",
+        "createdTime": 1729384071765,
+        "modifiedTime": 1731428508629,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "name": "Frag Grenade",
+      "type": "weapon",
+      "folder": "eSLlzO0CrtyK8IEA",
+      "img": "modules/impmal-core/assets/icons/weapons/frag-grenade.webp",
+      "system": {
+        "notes": {
+          "player": "<p>Perhaps the most widely used Imperial military-grade munitions, Frag munitions are most commonly found in grenade and missile form. Both explode in showers of shrapnel and other lacertaing metals, making them ideal for anti-infantry duties. Almost every warrior in the Imperium, from Militarum troopers to elite Space Marines, carries frag grenades to aid in assaulting positions, with grenade launchers providing longer range infantry suppression. Frag missiles are the more powerful version, with a greater range to soften up distant positions such as heavy weapon teams.</p><p>Frag grenades have a large radius, and deal decent damage.</p>",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 50,
+        "availability": "common",
+        "quantity": 2,
+        "equipped": {
+          "value": false
+        },
+        "damage": {
+          "base": "6",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "blast"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "thrown",
+              "value": "Medium"
+            },
+            {
+              "key": "unstable"
+            }
+          ]
+        },
+        "ammoCost": null,
+        "attackType": "ranged",
+        "category": "grenadesExplosives",
+        "spec": "ordnance",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": null,
+          "current": null
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3,
+        "OiC3nmfMqKDD4B7W": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.0fB10YisRQoUabab"
+        },
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.0fB10YisRQoUabab",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.3",
+        "createdTime": 1730063019031,
+        "modifiedTime": 1730593435111,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      },
+      "_id": "D5OxvHcwA8Yhsgnz"
+    },
+    {
+      "name": "Exterminator Charge (Flamer) Ammo",
+      "type": "ammo",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 5,
+        "availability": "",
+        "quantity": 5,
+        "custom": false,
+        "priceMultiplier": 1,
+        "usedWith": "",
+        "damage": null,
+        "addedTraits": {
+          "list": []
+        },
+        "removedTraits": {
+          "list": []
+        }
+      },
+      "_id": "G92HHFjkBVdUrLKy",
+      "img": "modules/impmal-core/assets/icons/ammo/ammo.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.3",
+        "createdTime": 1730591981704,
+        "modifiedTime": 1730592192967,
+        "lastModifiedBy": "ZMexQSHmnC43zaWa"
+      }
+    },
+    {
+      "name": "Boltgun",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "cost": 5000,
+        "availability": "rare",
+        "quantity": 1,
+        "equipped": {
+          "value": false
+        },
+        "damage": {
+          "base": "8",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "loud"
+            },
+            {
+              "key": "penetrating",
+              "value": "4"
+            },
+            {
+              "key": "rapidFire",
+              "value": "2"
+            },
+            {
+              "key": "spread"
+            },
+            {
+              "key": "twohanded"
+            }
+          ]
+        },
+        "ammoCost": 500,
+        "attackType": "ranged",
+        "category": "bolt",
+        "spec": "longGun",
+        "range": "long",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 4,
+          "current": 2
+        },
+        "ammo": {
+          "id": "EYJwgTjdUijyVBbU"
+        },
+        "mods": {
+          "list": [
+            {
+              "folder": "qanHaDPvuEhF6FOo",
+              "name": "Laser Sight",
+              "type": "modification",
+              "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+              "system": {
+                "notes": {
+                  "player": "<p>This attachment uses a low-power laser to pick out a target so that the user can more easily make a kill shot. Others (including the target) may notice the appearance of the small red dot, though, revealing the shooter's presence.</p><p>A Laser Sight adds +1 SL to Ranged Attacks made with the weapon, but targets have Advantage on Awareness Tests to spot the wielder. An unaware target who notices the dot may attempt to Dodge the ranged attack. The sight may be switched on or off once per round as a Free Action.</p>",
+                  "gm": ""
+                },
+                "encumbrance": {
+                  "value": 0
+                },
+                "cost": 50,
+                "availability": "scarce",
+                "quantity": 1,
+                "category": "sight",
+                "usedWith": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+                "addedTraits": {
+                  "list": []
+                },
+                "removedTraits": {
+                  "list": []
+                },
+                "disabled": false
+              },
+              "effects": [
+                {
+                  "name": "Laser Sight",
+                  "_id": "uS6d4tmiJQ4OkH4v",
+                  "changes": [],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "",
+                  "origin": null,
+                  "transfer": true,
+                  "statuses": [],
+                  "flags": {
+                    "impmal": {
+                      "manualEffectKeys": false
+                    }
+                  },
+                  "tint": "#ffffff",
+                  "_stats": {
+                    "coreVersion": "12.324",
+                    "systemId": null,
+                    "systemVersion": null,
+                    "createdTime": null,
+                    "modifiedTime": null,
+                    "lastModifiedBy": null,
+                    "compendiumSource": null,
+                    "duplicateSource": null
+                  },
+                  "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+                  "type": "base",
+                  "system": {
+                    "transferData": {
+                      "type": "document",
+                      "documentType": "Item",
+                      "avoidTest": {
+                        "value": "none",
+                        "opposed": false,
+                        "prevention": true,
+                        "reversed": false,
+                        "skill": {}
+                      },
+                      "prompt": false,
+                      "zone": {
+                        "type": "zone",
+                        "transferred": false,
+                        "traits": {},
+                        "skipImmediateOnPlacement": false,
+                        "keep": false
+                      },
+                      "originalType": "document",
+                      "testIndependent": false,
+                      "equipTransfer": false,
+                      "selfOnly": false,
+                      "area": {
+                        "templateData": {},
+                        "keep": false,
+                        "aura": {
+                          "transferred": false,
+                          "render": true
+                        },
+                        "duration": "sustained"
+                      }
+                    },
+                    "scriptData": [
+                      {
+                        "label": "+1 SL to Ranged Attacks",
+                        "trigger": "dialog",
+                        "options": {
+                          "hideScript": "[Script.biFsCPl9L92RbfLL]",
+                          "activateScript": "[Script.VVKEI5ZcmQnqViEW]",
+                          "submissionScript": "",
+                          "targeter": false,
+                          "deleteEffect": false
+                        },
+                        "script": "[Script.6yX3fQEJHfGmXLwW]",
+                        "async": false
+                      }
+                    ],
+                    "itemTargetData": {
+                      "ids": [],
+                      "allItems": false
+                    },
+                    "zone": {
+                      "type": "zone",
+                      "traits": {
+                        "barrier": false,
+                        "difficult": false,
+                        "warpTouched": false
+                      },
+                      "skipImmediateOnPlacement": false
+                    },
+                    "sourceData": {
+                      "test": {}
+                    },
+                    "computed": false
+                  },
+                  "sort": 0
+                }
+              ],
+              "sort": 0,
+              "ownership": {
+                "default": 0,
+                "Re1K6cm6B4B40dzP": 3
+              },
+              "flags": {},
+              "_stats": {
+                "systemId": "impmal",
+                "systemVersion": "1.0.1",
+                "coreVersion": "12.331",
+                "createdTime": 1689193272625,
+                "modifiedTime": 1729749197407,
+                "lastModifiedBy": "TnC9cMUojWJW6h5q",
+                "compendiumSource": "Compendium.impmal-core.items.Item.s8IYzKs3E2tDNutI",
+                "duplicateSource": null
+              },
+              "_id": "s8IYzKs3E2tDNutI"
+            },
+            {
+              "folder": "qanHaDPvuEhF6FOo",
+              "name": "Omnispex",
+              "type": "modification",
+              "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+              "system": {
+                "notes": {
+                  "player": "<p>An Omnispex uses spectral sensors to analyse wavelengths outside of Human perception, so that even in darkness few can hide themselves from detection.</p><p>A Omnispex can be attached to most ranged weapons and removes Disadvantage when firing into a Zone that is @UUID[JournalEntry.hdElQAwiBr5AyoRf.JournalEntryPage.zQYkbNcsJmGintdL#dark]{Dark} or @UUID[JournalEntry.hdElQAwiBr5AyoRf.JournalEntryPage.zQYkbNcsJmGintdL#poorly-lit]{Poorly Lit}.</p>",
+                  "gm": ""
+                },
+                "encumbrance": {
+                  "value": 0
+                },
+                "cost": 200,
+                "availability": "rare",
+                "quantity": 1,
+                "category": "sight",
+                "usedWith": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+                "addedTraits": {
+                  "list": []
+                },
+                "removedTraits": {
+                  "list": []
+                },
+                "disabled": false
+              },
+              "effects": [],
+              "sort": 0,
+              "ownership": {
+                "default": 0,
+                "Re1K6cm6B4B40dzP": 3
+              },
+              "flags": {},
+              "_stats": {
+                "systemId": "impmal",
+                "systemVersion": "1.0.1",
+                "coreVersion": "12.324",
+                "createdTime": 1689193272625,
+                "modifiedTime": 1702519067920,
+                "lastModifiedBy": "Re1K6cm6B4B40dzP",
+                "compendiumSource": "Compendium.impmal-core.items.Item.0aU07JBpNMjdUABI",
+                "duplicateSource": null
+              },
+              "_id": "0aU07JBpNMjdUABI"
+            },
+            {
+              "folder": "qanHaDPvuEhF6FOo",
+              "name": "Exterminator Cartridge",
+              "type": "modification",
+              "_id": "BMklaKKiyCUgQfOX",
+              "img": "modules/impmal-core/assets/icons/modification/modification.webp",
+              "system": {
+                "notes": {
+                  "player": "<p>An Exterminator Cartridge is a stripped-down Flamer with enough fuel for a single use. They are popular among Imperial fanatics and zealots, who attach them to roaring Chainswords to douse their foes in cleansing fire as they charge in a blazing embodiment of the Emperor's fury.</p><p>An Exterminator Cartridge is a @UUID[Compendium.impmal-core.items.Item.blRx8XLXQaD9sjDz]{Flamer} that can be attached to any melee or ranged weapon. It can be fired as an Action, counting as a Ranged Attack. Once an Exterminator Cartridge has been fired, the Exterminator Cartridge is expended and takes 5 minutes to reload. Reloads can be acquired for 5 solars, and are Common.</p>",
+                  "gm": ""
+                },
+                "encumbrance": {
+                  "value": 0
+                },
+                "cost": 100,
+                "availability": "common",
+                "quantity": 1,
+                "category": "combat",
+                "usedWith": "Any Melee or Ranged weapon with the Two-Handed Trait.",
+                "addedTraits": {
+                  "list": []
+                },
+                "removedTraits": {
+                  "list": []
+                },
+                "disabled": false
+              },
+              "effects": [],
+              "sort": 0,
+              "ownership": {
+                "default": 0,
+                "Re1K6cm6B4B40dzP": 3
+              },
+              "flags": {},
+              "_stats": {
+                "systemId": "impmal",
+                "systemVersion": "1.0.2",
+                "coreVersion": "12.324",
+                "createdTime": 1689193272625,
+                "modifiedTime": 1708409570954,
+                "lastModifiedBy": "PCQgaY5E7QaWxBlV",
+                "compendiumSource": "Compendium.impmal-core.items.Item.BMklaKKiyCUgQfOX",
+                "duplicateSource": null
+              }
+            }
+          ]
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "YYJfq7rpKai3YY4R",
+      "img": "modules/impmal-core/assets/icons/weapons/boltgun.webp",
+      "effects": [],
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.impmal-core.items.Item.Vh51HJbH7SyCyudv",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.7",
+        "createdTime": 1731429142951,
+        "modifiedTime": 1734907284184,
+        "lastModifiedBy": "TAP9sJwjBBWROTNk"
+      }
+    },
+    {
+      "name": "Boltgun Ammo",
+      "type": "ammo",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 1000,
+        "availability": "scarce",
+        "quantity": 6,
+        "custom": false,
+        "priceMultiplier": 1,
+        "usedWith": "",
+        "damage": null,
+        "addedTraits": {
+          "list": []
+        },
+        "removedTraits": {
+          "list": []
+        }
+      },
+      "_id": "EYJwgTjdUijyVBbU",
+      "img": "modules/impmal-core/assets/icons/ammo/ammo.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZMexQSHmnC43zaWa": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.7",
+        "createdTime": 1731429315970,
+        "modifiedTime": 1734907284175,
+        "lastModifiedBy": "TAP9sJwjBBWROTNk"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "name": "Dark",
+      "statuses": [
+        "dark"
+      ],
+      "flags": {
+        "impmal": {
+          "fromZone": "Scene.5SefFmk8BpV2tEab.Drawing.Vx4SM3TV23rJ2zvs"
+        }
+      },
+      "origin": "Scene.5SefFmk8BpV2tEab.Drawing.Vx4SM3TV23rJ2zvs",
+      "img": "icons/svg/aura.svg",
+      "_id": "vLoK9g5bHsr5OJsT",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "zone": {
+            "type": "",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          },
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          }
+        },
+        "scriptData": [
+          {
+            "label": "Advantage on Stealth (Hide)",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "return ![\"stealth\"].includes(args.data.skill);",
+              "activateScript": "return args.skillItem?.name == \"Hide\"",
+              "targeter": false,
+              "deleteEffect": false
+            },
+            "script": "args.advCount++;",
+            "async": false
+          },
+          {
+            "label": "Only succeeds on a roll of 01-05",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "return !([\"awareness\"].includes(args.data.skill) || args.weapon?.system?.isRanged)",
+              "activateScript": "return args.skillItem?.name == \"Sight\" || args.weapon?.system?.isRanged",
+              "submissionScript": "args.data.onlyAutomaticSuccess = true",
+              "targeter": true,
+              "deleteEffect": false
+            },
+            "script": "",
+            "async": false
+          },
+          {
+            "label": "Disadvantage on Tests affected by the absence of light",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "",
+              "activateScript": "return [\"melee\", \"reflexes\", \"dexterity\", \"tech\"].includes(args.data.skill)",
+              "targeter": false,
+              "deleteEffect": false
+            },
+            "script": "args.disCount++;",
+            "async": false
+          }
+        ],
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "zone": {
+          "type": "zone",
+          "traits": {
+            "barrier": false,
+            "difficult": false,
+            "warpTouched": false
+          },
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "1.3.1",
+        "createdTime": 1729017299720,
+        "modifiedTime": 1729363748245,
+        "lastModifiedBy": "OiC3nmfMqKDD4B7W"
+      }
+    },
+    {
+      "img": "icons/svg/aura.svg",
+      "name": "Heavy Cover",
+      "statuses": [
+        "heavyCover"
+      ],
+      "system": {
+        "transferData": {
+          "enableConditionScript": "return this.actor.system.combat.action == \"cover\"",
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "scriptData": [
+          {
+            "label": "Heavy Cover",
+            "script": "if (args.opposed && args.opposed.attackerTest.item?.system.isRanged)\n                            {\n                                args.modifiers.push({value : -6, label : this.effect.name, armour : true})\n                            }",
+            "trigger": "preTakeDamage",
+            "options": {
+              "targeter": false,
+              "deleteEffect": false
+            },
+            "async": false
+          },
+          {
+            "label": "Start Turn",
+            "script": "delete this.effect.conditionScript; this.effect.update({\"system.transferData.enableConditionScript\" : \"\"})",
+            "trigger": "startTurn",
+            "options": {
+              "targeter": false,
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "sourceData": {
+          "zone": "Scene.6F7DW4eVoAb4N5g2.Region.gMnbv8cmZSh7vyVb",
+          "test": {}
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "zone": {
+          "type": "zone",
+          "traits": {
+            "barrier": false,
+            "difficult": false,
+            "warpTouched": false
+          },
+          "skipImmediateOnPlacement": false
+        },
+        "computed": false
+      },
+      "origin": "Scene.6F7DW4eVoAb4N5g2.Region.gMnbv8cmZSh7vyVb",
+      "_id": "zeu9P5REpjDNyp1g",
+      "type": "base",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "impmal",
+        "systemVersion": "2.0.7",
+        "createdTime": 1734910849249,
+        "modifiedTime": 1734910849249,
+        "lastModifiedBy": "TAP9sJwjBBWROTNk"
+      }
+    }
+  ],
+  "flags": {
+    "impmal": {},
+    "exportSource": {
+      "world": "rokarth-voll",
+      "system": "impmal",
+      "coreVersion": "12.331",
+      "systemVersion": "2.0.7"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "impmal",
+    "systemVersion": "2.0.7",
+    "createdTime": 1728770567551,
+    "modifiedTime": 1734913462016,
+    "lastModifiedBy": "TAP9sJwjBBWROTNk"
+  }
+}

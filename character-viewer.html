@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Viewer - Imperium Maledictum</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CHARACTER VIEWER</h1>
+            <div class="header-subtitle">IMPERIUM MALEDICTUM</div>
+        </header>
+
+        <nav class="navigation">
+            <button class="tab-button active" onclick="location.href='ImpMal.html'">CHARACTER CREATOR</button>
+            <button class="tab-button current">CHARACTER VIEWER</button>
+            <div class="update-section">
+                <div id="cache-status" class="cache-status" style="display: none;"></div>
+                <button class="update-button" onclick="refreshCharacter()" title="Update character data from Foundry">
+                    <span class="update-icon">⟳</span> UPDATE
+                </button>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Loading State -->
+            <div id="loading" class="loading-state">
+                <div class="loading-text" id="loading-text">>> ACCESSING IMPERIAL RECORDS...</div>
+                <div class="loading-bar">
+                    <div class="loading-fill"></div>
+                </div>
+            </div>
+
+            <!-- Error State -->
+            <div id="error-state" class="error-state" style="display: none;">
+                <div class="error-title">ACCESS DENIED</div>
+                <div class="error-message" id="error-message"></div>
+                <button class="retry-button" onclick="loadCharacter()">RETRY ACCESS</button>
+            </div>
+
+            <!-- Character Display -->
+            <div id="character-display" class="character-display" style="display: none;">
+                <!-- Character Header -->
+                <section class="character-header">
+                    <div class="character-portrait">
+                        <img id="character-image" src="" alt="Character Portrait" />
+                    </div>
+                    <div class="character-info">
+                        <h1 id="character-name" class="character-name">Unknown</h1>
+                        <div class="character-details">
+                            <div class="detail-row">
+                                <span class="label">SPECIES:</span>
+                                <span id="character-species" class="value">Human</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">ORIGIN:</span>
+                                <span id="character-origin" class="value">Unknown</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">FACTION:</span>
+                                <span id="character-faction" class="value">Unknown</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">ROLE:</span>
+                                <span id="character-role" class="value">Unknown</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Character Stats Tabs -->
+                <div class="tab-container">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="stats">CHARACTERISTICS</button>
+                        <button class="tab-button" data-tab="skills">SKILLS</button>
+                        <button class="tab-button" data-tab="equipment">EQUIPMENT</button>
+                        <button class="tab-button" data-tab="talents">TALENTS</button>
+                    </div>
+
+                    <!-- Stats Tab -->
+                    <div class="tab-content active" id="stats">
+                        <h2>CHARACTERISTICS</h2>
+                        <div class="stats-grid">
+                            <div class="stat-block">
+                                <div class="stat-label">WS</div>
+                                <div id="stat-ws" class="stat-value">25</div>
+                            </div>
+                            <div class="stat-block">
+                                <div class="stat-label">BS</div>
+                                <div id="stat-bs" class="stat-value">25</div>
+                            </div>
+                            <div class="stat-block">
+                                <div class="stat-label">STR</div>
+                                <div id="stat-str" class="stat-value">30</div>
+                            </div>
+                            <div class="stat-block">
+                                <div class="stat-label">TGH</div>
+                                <div id="stat-tgh" class="stat-value">40</div>
+                            </div>
+                            <div class="stat-block">
+                                <div class="stat-label">AG</div>
+                                <div id="stat-ag" class="stat-value">30</div>
+                            </div>
+                            <div class="stat-block">
+                                <div class="stat-label">INT</div>
+                                <div id="stat-int" class="stat-value">45</div>
+                            </div>
+                            <div class="stat-block">
+                                <div class="stat-label">PER</div>
+                                <div id="stat-per" class="stat-value">35</div>
+                            </div>
+                            <div class="stat-block">
+                                <div class="stat-label">WIL</div>
+                                <div id="stat-wil" class="stat-value">35</div>
+                            </div>
+                            <div class="stat-block">
+                                <div class="stat-label">FEL</div>
+                                <div id="stat-fel" class="stat-value">25</div>
+                            </div>
+                        </div>
+
+                        <div class="resources-section">
+                            <h3>RESOURCES</h3>
+                            <div class="resources-grid">
+                                <div class="resource-block">
+                                    <div class="resource-label">FATE</div>
+                                    <div class="resource-value">
+                                        <span id="fate-current">3</span>/<span id="fate-max">3</span>
+                                    </div>
+                                </div>
+                                <div class="resource-block">
+                                    <div class="resource-label">WOUNDS</div>
+                                    <div class="resource-value">
+                                        <span id="wounds-current">0</span>/<span id="wounds-max">0</span>
+                                    </div>
+                                </div>
+                                <div class="resource-block">
+                                    <div class="resource-label">CORRUPTION</div>
+                                    <div class="resource-value">
+                                        <span id="corruption-current">0</span>/<span id="corruption-max">0</span>
+                                    </div>
+                                </div>
+                                <div class="resource-block">
+                                    <div class="resource-label">SOLARS</div>
+                                    <div id="solars" class="resource-value">100</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Tab -->
+                    <div class="tab-content" id="skills">
+                        <h2>SKILLS & SPECIALIZATIONS</h2>
+                        <div class="skills-section">
+                            <h3>TRAINED SKILLS</h3>
+                            <div id="skills-list" class="skills-list">
+                                <!-- Skills will be populated here -->
+                            </div>
+                        </div>
+                        <div class="specializations-section">
+                            <h3>SPECIALIZATIONS</h3>
+                            <div id="specializations-list" class="specializations-list">
+                                <!-- Specializations will be populated here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Equipment Tab -->
+                    <div class="tab-content" id="equipment">
+                        <h2>EQUIPMENT</h2>
+                        <div class="equipment-sections">
+                            <div class="equipment-section">
+                                <h3>WEAPONS</h3>
+                                <div id="weapons-list" class="equipment-list">
+                                    <!-- Weapons will be populated here -->
+                                </div>
+                            </div>
+                            <div class="equipment-section">
+                                <h3>ARMOR</h3>
+                                <div id="armor-list" class="equipment-list">
+                                    <!-- Armor will be populated here -->
+                                </div>
+                            </div>
+                            <div class="equipment-section">
+                                <h3>EQUIPMENT</h3>
+                                <div id="equipment-list" class="equipment-list">
+                                    <!-- Equipment will be populated here -->
+                                </div>
+                            </div>
+                            <div class="equipment-section">
+                                <h3>AUGMETICS</h3>
+                                <div id="augmetics-list" class="equipment-list">
+                                    <!-- Augmetics will be populated here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Talents Tab -->
+                    <div class="tab-content" id="talents">
+                        <h2>TALENTS</h2>
+                        <div id="talents-list" class="talents-list">
+                            <!-- Talents will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-text">
+                ACCESSING IMPERIAL RECORDS - AUTHORIZATION LEVEL: CLASSIFIED
+            </div>
+        </footer>
+    </div>
+
+    <script src="character-viewer.js"></script>
+</body>
+</html>
