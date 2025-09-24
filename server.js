@@ -4,8 +4,9 @@ const path = require('path');
 const { URL } = require('url');
 
 const PORT = process.env.PORT || 3000;
-const FOUNDRY_API_BASE_URL = process.env.FOUNDRY_API_BASE_URL;
+const FOUNDRY_API_BASE_URL = process.env.FOUNDRY_API_BASE_URL || 'https://foundryvtt-rest-api-relay.fly.dev/';
 const FOUNDRY_API_KEY = process.env.FOUNDRY_API_KEY;
+const FOUNDRY_CLIENT_ID = process.env.FOUNDRY_CLIENT_ID;
 const BASE_DIR = __dirname;
 
 function sendJson(res, statusCode, payload) {
@@ -38,18 +39,25 @@ async function proxyActorRequest(res, requestUrl) {
     return;
   }
 
+  if (!FOUNDRY_API_KEY) {
+    sendJson(res, 500, { error: 'Foundry API key is required.' });
+    return;
+  }
+
   try {
     const baseUrl = ensureTrailingSlash(FOUNDRY_API_BASE_URL);
     const actorUrl = new URL(`actors/${encodeURIComponent(actorId)}`, baseUrl);
-    actorUrl.search = requestUrl.searchParams.toString();
+
+    if (FOUNDRY_CLIENT_ID) {
+      actorUrl.searchParams.set('clientId', FOUNDRY_CLIENT_ID);
+    }
+
+    actorUrl.search += (actorUrl.search ? '&' : '') + requestUrl.searchParams.toString();
 
     const headers = {
-      Accept: 'application/json'
+      Accept: 'application/json',
+      'x-api-key': FOUNDRY_API_KEY
     };
-
-    if (FOUNDRY_API_KEY) {
-      headers.Authorization = `Bearer ${FOUNDRY_API_KEY}`;
-    }
 
     const response = await fetch(actorUrl, { headers });
     const text = await response.text();
